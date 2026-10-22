@@ -1,0 +1,26 @@
+name: viru-trend-tick
+on:
+  schedule:
+    - cron: "1,16,31,46 * * * *"   # ~1 min after each 15m close (UTC)
+  workflow_dispatch:
+concurrency:
+  group: viru-tick
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests (pytest)
+        run: pip install -q pytest && python3 -m pytest -q viru/test_viru.py
+      - name: Viru Trend paper tick (15m public candles only, no orders)
+        run: python3 viru/run_tick.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Commit state + dashboard
+        run: |
+          git config user.name "paper-bot"; git config user.email "paper-bot@users.noreply.github.com"
+          git add state/viru_state.json state/viru_journal.jsonl VIRU_TREND.md
+          git commit -qm "viru tick $(date -u +%FT%TZ)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done

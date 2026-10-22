@@ -3,14 +3,15 @@ import json, os, datetime as dt
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 f = lambda x: f"{x:,.6g}"
 
-def write_readme(st, journal, start, path="README.md"):
+def write_readme(st, journal, start, path="README.md", title=None, desc=None, files=None):
     ex = [json.loads(l) for l in open(journal)] if os.path.exists(journal) else []
     ex = [e for e in ex if e["event"] == "exit"]
     bal = st.get("balance", start)
-    L = ["# Delta Paper Live — 1H Donchian(20) breakout (PAPER ONLY)", "",
-         "Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; "
+    L = [title or "# Delta Paper Live — 1H Donchian(20) breakout (PAPER ONLY)", "",
+         desc or "Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; "
          "SL = 2×ATR(14); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. "
-         "Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions.", "",
+         "Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. "
+         "Second strategy: **[Viru Trend](VIRU_TREND.md)**.", "",
          f"**Last update:** {dt.datetime.now(IST):%Y-%m-%d %H:%M} IST", "", "## Open positions", ""]
     upnl_tot = 0.0; rows = []
     for s, v in st["symbols"].items():
@@ -34,5 +35,5 @@ def write_readme(st, journal, start, path="README.md"):
           f"| Realized P&L | ${real:,.2f} |", f"| Unrealized P&L | ${upnl_tot:,.2f} |",
           f"| Total P&L | ${real + upnl_tot:,.2f} |", f"| Closed trades | {len(ex)} |",
           f"| Win rate | {f'{100*wins/len(ex):.0f}%' if ex else 'n/a'} |", "",
-          "_State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._", ""]
+          f"_State: {files or '`state/paper_state.json`, journal: `state/trade_journal.jsonl`'}. Paper trading only — not financial advice._", ""]
     open(path, "w").write("\n".join(L))

@@ -11,12 +11,12 @@ JOURNAL = os.getenv("PAPER_JOURNAL", "state/trade_journal.jsonl")
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 
-def candles(sym, n=100):
+def candles(sym, n=100, res="1h", sec=3600):
     now = int(time.time())
-    url = f"{BASE}/v2/history/candles?resolution=1h&symbol={sym}&start={now-3600*(n+2)}&end={now}"
+    url = f"{BASE}/v2/history/candles?resolution={res}&symbol={sym}&start={now-sec*(n+2)}&end={now}"
     req = urllib.request.Request(url, headers={"User-Agent": "paper-bot"})
     r = json.load(urllib.request.urlopen(req, timeout=20))["result"]
-    c = sorted((x for x in r if x["time"] + 3600 <= now), key=lambda x: x["time"])  # closed only
+    c = sorted((x for x in r if x["time"] + sec <= now), key=lambda x: x["time"])  # closed only
     return c[-n:]
 
 
