@@ -1,0 +1,104 @@
+{
+ "symbols": {
+  "XRPUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 1.3159,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": 1,
+    "agreement": 0,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": null
+   }
+  },
+  "BTCUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 81360.0,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": 1,
+    "agreement": 0,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": null
+   }
+  },
+  "ETHUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 2381.95,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": "cancel_wick"
+   }
+  },
+  "DOGEUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 0.07868,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": "cancel_wick"
+   }
+  },
+  "BNBUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 728.55,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": "cancel_wick"
+   }
+  },
+  "SOLUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 103.962,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": "cancel_wick"
+   }
+  },
+  "XAUTUSD": {
+   "position": null,
+   "last_ts": 1792689300,
+   "price": 4054.93,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": null
+   }
+  }
+ },
+ "balance": 1000.0,
+ "updated": "2026-10-22T23:06:04.667763+05:30"
+}
