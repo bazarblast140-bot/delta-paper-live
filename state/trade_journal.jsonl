@@ -3,3 +3,4 @@
 {"event": "entry", "side": "short", "entry": 0.07866, "qty": 8100.914246036303, "time": 1792684800, "atr": 0.0006172142857142884, "sl": 0.07989442857142857, "entry_fee": 0.1274435829186431, "symbol": "DOGEUSD"}
 {"event": "entry", "side": "short", "entry": 728.33, "qty": 1.5777847901546194, "time": 1792684800, "atr": 3.169000000000007, "sl": 734.668, "entry_fee": 0.2298295992426628, "symbol": "BNBUSD"}
 {"event": "entry", "side": "short", "entry": 4048.34, "qty": 0.2857959416976292, "time": 1792684800, "atr": 17.494999999999923, "sl": 4083.33, "entry_fee": 0.23139982852243604, "symbol": "XAUTUSD"}
+{"event": "entry", "side": "short", "entry": 1.3015, "qty": 507.98258345428184, "time": 1792699200, "atr": 0.009842857142857138, "sl": 1.3211857142857144, "entry_fee": 0.1322278664731496, "symbol": "XRPUSD"}
