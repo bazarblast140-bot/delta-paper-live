@@ -1,0 +1,3 @@
+{"event": "entry", "side": "short", "entry": 1.3103, "qty": 1612.903225806456, "time": 1792691100, "sl": 1.3165, "entry_fee": 0.42267741935483993, "symbol": "XRPUSD"}
+{"event": "entry", "side": "short", "entry": 81068.0, "qty": 0.03424657534246575, "time": 1792692000, "sl": 81360.0, "entry_fee": 0.5552602739726027, "symbol": "BTCUSD"}
+{"event": "exit", "symbol": "BTCUSD", "side": "short", "entry_time": 1792692000, "exit_time": 1792694700, "entry": 81068.0, "exit": 81376.272, "qty": 0.03424657534246575, "reason": "stop", "gross": -10.5573, "fees": 1.9487, "net": -12.5059}
