@@ -9,22 +9,22 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792789200,
-   "price": 1.309,
+   "last_ts": 1792798200,
+   "price": 1.2929,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": 1,
-    "agreement": 0,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": -1,
+    "pend_high": 1.3009,
+    "pend_low": 1.2818,
     "event": null
    }
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1792789200,
-   "price": 81396.5,
+   "last_ts": 1792798200,
+   "price": 80957.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -37,8 +37,8 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1792789200,
-   "price": 2401.0,
+   "last_ts": 1792798200,
+   "price": 2380.2,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -51,8 +51,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1792789200,
-   "price": 0.07946,
+   "last_ts": 1792798200,
+   "price": 0.07842,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -65,8 +65,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792789200,
-   "price": 741.9,
+   "last_ts": 1792798200,
+   "price": 737.64,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -86,8 +86,8 @@
     "sl": 104.456,
     "entry_fee": 0.5469034800000001
    },
-   "last_ts": 1792789200,
-   "price": 103.971,
+   "last_ts": 1792798200,
+   "price": 102.612,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -100,19 +100,19 @@
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1792789200,
-   "price": 4004.68,
+   "last_ts": 1792798200,
+   "price": 3998.97,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": 1,
-    "agreement": 0,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
-    "event": null
+    "osc_dir": -1,
+    "agreement": -1,
+    "pend_dir": -1,
+    "pend_high": 3999.4,
+    "pend_low": 3998.25,
+    "event": "bear_setup"
    }
   }
  },
  "balance": 911.5058,
- "updated": "2026-10-24T02:53:22.606864+05:30"
+ "updated": "2026-10-24T05:24:42.406730+05:30"
 }
