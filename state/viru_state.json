@@ -1,20 +1,13 @@
 {
  "symbols": {
   "XRPUSD": {
-   "position": {
-    "side": "short",
-    "entry": 1.3103,
-    "qty": 1612.903225806456,
-    "time": 1792691100,
-    "sl": 1.3165,
-    "entry_fee": 0.42267741935483993
-   },
-   "last_ts": 1792711800,
-   "price": 1.3083,
+   "position": null,
+   "last_ts": 1792723500,
+   "price": 1.324,
    "indicator": {
-    "hema_dir": -1,
+    "hema_dir": 1,
     "osc_dir": 1,
-    "agreement": 0,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -23,8 +16,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1792711800,
-   "price": 81321.0,
+   "last_ts": 1792724400,
+   "price": 81850.5,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -37,8 +30,8 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1792711800,
-   "price": 2384.05,
+   "last_ts": 1792724400,
+   "price": 2412.0,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -51,8 +44,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1792711800,
-   "price": 0.07876,
+   "last_ts": 1792724400,
+   "price": 0.07971,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -65,8 +58,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792711800,
-   "price": 731.0,
+   "last_ts": 1792724400,
+   "price": 738.48,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -79,22 +72,8 @@
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1792711800,
-   "price": 103.532,
-   "indicator": {
-    "hema_dir": -1,
-    "osc_dir": 1,
-    "agreement": 0,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
-    "event": null
-   }
-  },
-  "XAUTUSD": {
-   "position": null,
-   "last_ts": 1792711800,
-   "price": 4037.62,
+   "last_ts": 1792724400,
+   "price": 104.392,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -104,8 +83,22 @@
     "pend_low": null,
     "event": null
    }
+  },
+  "XAUTUSD": {
+   "position": null,
+   "last_ts": 1792724400,
+   "price": 4030.53,
+   "indicator": {
+    "hema_dir": -1,
+    "osc_dir": 1,
+    "agreement": 0,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
+    "event": null
+   }
   }
  },
- "balance": 987.4941,
- "updated": "2026-10-23T05:22:21.677011+05:30"
+ "balance": 963.2288,
+ "updated": "2026-10-23T08:45:01.755613+05:30"
 }
