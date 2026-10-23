@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; SL = 2×ATR(14); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-23 20:12 IST
+**Last update:** 2026-10-24 00:24 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| DOGEUSD | long | 0.07999 | 0.0788111 | 0.08052 | 8,056.1 | $4.27 |
-| BNBUSD | long | 739.64 | 732.787 | 748.71 | 1.38584 | $12.57 |
-| SOLUSD | long | 105.082 | 103.65 | 105.082 | 6.63377 | $0.00 |
+| DOGEUSD | long | 0.07999 | 0.0788111 | 0.08002 | 8,056.1 | $0.24 |
+| BNBUSD | long | 739.64 | 732.787 | 745.06 | 1.38584 | $7.51 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | long | 10-23 18:30 | 10-23 19:30 | 105.082 | 103.63 | stop | $-10.12 |
 | XAUTUSD | short | 10-22 21:30 | 10-23 17:30 | 4,048.34 | 4,034.54 | mid_exit | $3.48 |
 | BNBUSD | short | 10-22 21:30 | 10-23 06:30 | 728.33 | 734.815 | stop | $-11.04 |
 | DOGEUSD | short | 10-22 21:30 | 10-23 07:30 | 0.07866 | 0.07977 | mid_exit | $-9.25 |
@@ -28,11 +28,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $953.18 |
-| Realized P&L | $-46.82 |
-| Unrealized P&L | $16.84 |
-| Total P&L | $-29.98 |
-| Closed trades | 6 |
-| Win rate | 17% |
+| Balance (realized) | $943.06 |
+| Realized P&L | $-56.94 |
+| Unrealized P&L | $7.75 |
+| Total P&L | $-49.18 |
+| Closed trades | 7 |
+| Win rate | 14% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
