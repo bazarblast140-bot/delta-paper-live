@@ -9,12 +9,12 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792857600,
-   "price": 1.2734,
+   "last_ts": 1792866600,
+   "price": 1.2853,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -30,15 +30,15 @@
     "sl": 80447.5,
     "entry_fee": 0.18469490785658915
    },
-   "last_ts": 1792857600,
-   "price": 79804.5,
+   "last_ts": 1792866600,
+   "price": 80323.5,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
+    "pend_dir": 1,
+    "pend_high": 80370.0,
+    "pend_low": 80214.5,
     "event": null
    }
   },
@@ -51,12 +51,12 @@
     "sl": 2373.1,
     "entry_fee": 0.49779651540001596
    },
-   "last_ts": 1792857600,
-   "price": 2307.6,
+   "last_ts": 1792866600,
+   "price": 2331.95,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "osc_dir": 1,
+    "agreement": 0,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -72,15 +72,15 @@
     "sl": 0.07851,
     "entry_fee": 0.4540613376774329
    },
-   "last_ts": 1792857600,
-   "price": 0.0761,
+   "last_ts": 1792866600,
+   "price": 0.07686,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
+    "pend_dir": 1,
+    "pend_high": 0.07691,
+    "pend_low": 0.07661,
     "event": null
    }
   },
@@ -93,33 +93,33 @@
     "sl": 736.78,
     "entry_fee": 0.53999622
    },
-   "last_ts": 1792857600,
-   "price": 721.57,
+   "last_ts": 1792866600,
+   "price": 726.77,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
+    "pend_dir": 1,
+    "pend_high": 727.06,
+    "pend_low": 725.33,
     "event": null
    }
   },
   "SOLUSD": {
    "position": {
-    "side": "short",
-    "entry": 104.21,
-    "qty": 26.240451012378855,
-    "time": 1792780200,
-    "sl": 104.456,
-    "entry_fee": 0.5469034800000001
+    "side": "long",
+    "entry": 101.041,
+    "qty": 17.454577540107177,
+    "time": 1792865700,
+    "sl": 100.48,
+    "entry_fee": 0.3527255938459939
    },
-   "last_ts": 1792857600,
-   "price": 100.12,
+   "last_ts": 1792866600,
+   "price": 101.05,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -128,12 +128,12 @@
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1792857600,
-   "price": 3994.66,
+   "last_ts": 1792866600,
+   "price": 3995.97,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -141,6 +141,6 @@
    }
   }
  },
- "balance": 897.123,
- "updated": "2026-10-24T21:45:10.169216+05:30"
+ "balance": 979.2018,
+ "updated": "2026-10-25T00:19:13.478252+05:30"
 }
