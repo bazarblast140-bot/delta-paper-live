@@ -9,7 +9,7 @@ def write_readme(st, journal, start, path="README.md", title=None, desc=None, fi
     bal = st.get("balance", start)
     L = [title or "# Delta Paper Live — 1H Donchian(20) breakout (PAPER ONLY)", "",
          desc or "Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; "
-         "SL = 2×ATR(14); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. "
+         "initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. "
          "Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. "
          "Second strategy: **[Viru Trend](VIRU_TREND.md)**.", "",
          f"**Last update:** {dt.datetime.now(IST):%Y-%m-%d %H:%M} IST", "", "## Open positions", ""]

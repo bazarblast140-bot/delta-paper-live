@@ -47,6 +47,9 @@ def step(sym, st, c, i):
             tr = _close(pos, k["close"], MAKER_FEE, t, "mid_exit", sym)
         else:
             tr = None
+            # trailing stop: ratchet in favour only, using ATR(14) on this closed bar
+            a = atr(c, i)
+            pos["sl"] = max(pos["sl"], k["close"] - ATR_MULT * a) if L else min(pos["sl"], k["close"] + ATR_MULT * a)
         if tr:
             st["equity"] = round(st["equity"] + tr["net"], 4)
             st["position"] = None
