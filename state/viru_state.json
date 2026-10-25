@@ -9,8 +9,8 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792944900,
-   "price": 1.3005,
+   "last_ts": 1792954800,
+   "price": 1.3022,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -30,8 +30,8 @@
     "sl": 80361.5,
     "entry_fee": 0.5709596868475713
    },
-   "last_ts": 1792944900,
-   "price": 80546.0,
+   "last_ts": 1792954800,
+   "price": 80570.0,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -51,8 +51,8 @@
     "sl": 2373.1,
     "entry_fee": 0.49779651540001596
    },
-   "last_ts": 1792944900,
-   "price": 2343.25,
+   "last_ts": 1792954800,
+   "price": 2352.9,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -65,8 +65,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1792944900,
-   "price": 0.07712,
+   "last_ts": 1792954800,
+   "price": 0.07745,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -79,8 +79,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792944900,
-   "price": 740.62,
+   "last_ts": 1792954800,
+   "price": 742.52,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -100,8 +100,8 @@
     "sl": 100.72,
     "entry_fee": 0.3231353231230968
    },
-   "last_ts": 1792944900,
-   "price": 101.41,
+   "last_ts": 1792954800,
+   "price": 101.81,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -121,8 +121,8 @@
     "sl": 3996.25,
     "entry_fee": 0.6415474800000001
    },
-   "last_ts": 1792944900,
-   "price": 4002.56,
+   "last_ts": 1792954800,
+   "price": 4003.58,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -135,5 +135,5 @@
   }
  },
  "balance": 1069.2458,
- "updated": "2026-10-25T22:10:22.559778+05:30"
+ "updated": "2026-10-26T00:46:30.451880+05:30"
 }
