@@ -9,8 +9,8 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792883700,
-   "price": 1.2941,
+   "last_ts": 1792890900,
+   "price": 1.3033,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -23,8 +23,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1792883700,
-   "price": 80591.5,
+   "last_ts": 1792890900,
+   "price": 80769.0,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -44,8 +44,8 @@
     "sl": 2373.1,
     "entry_fee": 0.49779651540001596
    },
-   "last_ts": 1792883700,
-   "price": 2345.1,
+   "last_ts": 1792890900,
+   "price": 2356.65,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -65,8 +65,8 @@
     "sl": 0.07661,
     "entry_fee": 0.27516451778571194
    },
-   "last_ts": 1792883700,
-   "price": 0.07734,
+   "last_ts": 1792890900,
+   "price": 0.07789,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -86,8 +86,8 @@
     "sl": 725.33,
     "entry_fee": 0.4023930402623371
    },
-   "last_ts": 1792883700,
-   "price": 735.91,
+   "last_ts": 1792890900,
+   "price": 741.29,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -107,8 +107,8 @@
     "sl": 100.48,
     "entry_fee": 0.3527255938459939
    },
-   "last_ts": 1792883700,
-   "price": 101.771,
+   "last_ts": 1792890900,
+   "price": 102.331,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -121,12 +121,12 @@
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1792883700,
-   "price": 3999.51,
+   "last_ts": 1792890900,
+   "price": 3999.72,
    "indicator": {
     "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "osc_dir": -1,
+    "agreement": 0,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -135,5 +135,5 @@
   }
  },
  "balance": 1018.3742,
- "updated": "2026-10-25T05:01:26.316526+05:30"
+ "updated": "2026-10-25T07:09:43.199785+05:30"
 }
