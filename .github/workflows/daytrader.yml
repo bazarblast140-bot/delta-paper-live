@@ -1,0 +1,26 @@
+name: daytrader-orb-tick
+on:
+  schedule:
+    - cron: "2,17,32,47 * * * *"   # ~2 min after each 15m close (UTC); offset from viru :01/:16/:31/:46
+  workflow_dispatch:
+concurrency:
+  group: daytrader-orb-tick
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests
+        run: python3 -m unittest daytrader.test_strategy -q
+      - name: DayTrader ORB paper tick (15m public candles only, no orders)
+        run: python3 daytrader/run_tick.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Commit DayTrader state + dashboard only
+        run: |
+          git config user.name "paper-bot"; git config user.email "paper-bot@users.noreply.github.com"
+          git add state/daytrader_state.json state/daytrader_journal.jsonl DAYTRADER_ORB.md
+          git commit -qm "daytrader orb tick $(date -u +%FT%TZ)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
