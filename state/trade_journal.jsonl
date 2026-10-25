@@ -31,3 +31,5 @@
 {"event": "exit", "symbol": "BNBUSD", "side": "short", "entry_time": 1792832400, "exit_time": 1792864800, "entry": 731.99, "exit": 727.1383986000001, "qty": 1.3969925389226716, "reason": "stop", "gross": 6.7777, "fees": 0.7124, "net": 6.0652}
 {"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1792792800, "exit_time": 1792864800, "entry": 102.321, "exit": 101.13355123714285, "qty": 5.471678983775188, "reason": "stop", "gross": 6.4973, "fees": 0.3887, "net": 6.1087}
 {"event": "entry", "side": "long", "entry": 1.3001, "qty": 476.1541803865436, "time": 1792882800, "atr": 0.009978571428571408, "sl": 1.2801428571428572, "entry_fee": 0.12380960998410909, "symbol": "XRPUSD"}
+{"event": "entry", "side": "long", "entry": 741.57, "qty": 1.2605408186469562, "time": 1792886400, "atr": 3.7692857142857212, "sl": 734.0314285714286, "entry_fee": 0.1869558509768047, "symbol": "BNBUSD"}
+{"event": "entry", "side": "long", "entry": 4002.76, "qty": 0.7122093505481217, "time": 1792900800, "atr": 2.6499999999999937, "sl": 3997.46, "entry_fee": 0.57016062, "symbol": "XAUTUSD"}
