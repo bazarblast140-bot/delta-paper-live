@@ -9,8 +9,8 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792963800,
-   "price": 1.2972,
+   "last_ts": 1792971000,
+   "price": 1.2953,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -23,8 +23,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1792963800,
-   "price": 80350.0,
+   "last_ts": 1792971000,
+   "price": 80027.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -44,8 +44,8 @@
     "sl": 2373.1,
     "entry_fee": 0.49779651540001596
    },
-   "last_ts": 1792963800,
-   "price": 2336.85,
+   "last_ts": 1792971000,
+   "price": 2326.05,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -57,16 +57,9 @@
    }
   },
   "DOGEUSD": {
-   "position": {
-    "side": "short",
-    "entry": 0.07706,
-    "qty": 41115.471061510514,
-    "time": 1792963800,
-    "sl": 0.07727,
-    "entry_fee": 0.6336716400000001
-   },
-   "last_ts": 1792963800,
-   "price": 0.07706,
+   "position": null,
+   "last_ts": 1792971000,
+   "price": 0.07691,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -74,13 +67,13 @@
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
-    "event": "SELL"
+    "event": null
    }
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792963800,
-   "price": 739.96,
+   "last_ts": 1792971000,
+   "price": 738.18,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -92,23 +85,16 @@
    }
   },
   "SOLUSD": {
-   "position": {
-    "side": "long",
-    "entry": 101.391,
-    "qty": 15.935108792846345,
-    "time": 1792939500,
-    "sl": 100.72,
-    "entry_fee": 0.3231353231230968
-   },
-   "last_ts": 1792963800,
-   "price": 101.4,
+   "position": null,
+   "last_ts": 1792971000,
+   "price": 101.171,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
     "agreement": -1,
-    "pend_dir": -1,
-    "pend_high": 101.661,
-    "pend_low": 101.34,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
     "event": null
    }
   },
@@ -121,19 +107,19 @@
     "sl": 3996.25,
     "entry_fee": 0.6415474800000001
    },
-   "last_ts": 1792963800,
-   "price": 4008.06,
+   "last_ts": 1792971000,
+   "price": 4006.77,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
     "agreement": 1,
-    "pend_dir": 1,
-    "pend_high": 4008.42,
-    "pend_low": 4005.5,
+    "pend_dir": 0,
+    "pend_high": null,
+    "pend_low": null,
     "event": null
    }
   }
  },
- "balance": 1056.1194,
- "updated": "2026-10-26T03:28:24.290532+05:30"
+ "balance": 1027.9998,
+ "updated": "2026-10-26T05:26:09.788886+05:30"
 }
