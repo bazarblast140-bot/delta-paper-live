@@ -2,40 +2,48 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 1.3007
+   "last_ts": 1792980000,
+   "price": 1.284
   },
   "BTCUSD": {
-   "position": null,
-   "last_ts": 1792965600,
-   "price": 80433.5
+   "position": {
+    "side": "short",
+    "entry": 79719.0,
+    "qty": 0.012857180907483794,
+    "time": 1792976400,
+    "atr": 363.64285714285717,
+    "sl": 80298.64285714286,
+    "entry_fee": 0.20499232095274011
+   },
+   "last_ts": 1792980000,
+   "price": 79536.0
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 2341.35
+   "last_ts": 1792980000,
+   "price": 2304.0
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 0.07735
+   "last_ts": 1792980000,
+   "price": 0.07645
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 741.81
+   "last_ts": 1792980000,
+   "price": 734.5
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 101.591
+   "last_ts": 1792980000,
+   "price": 100.64
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1792965600,
-   "price": 4010.73
+   "last_ts": 1792980000,
+   "price": 4006.91
   }
  },
  "balance": 935.0844,
- "updated": "2026-10-26T05:22:48.560368+05:30"
+ "updated": "2026-10-26T09:06:34.226923+05:30"
 }
