@@ -9,8 +9,8 @@
     "sl": 1.3273,
     "entry_fee": 0.386651154560003
    },
-   "last_ts": 1792971000,
-   "price": 1.2953,
+   "last_ts": 1792982700,
+   "price": 1.284,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -23,8 +23,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1792971000,
-   "price": 80027.0,
+   "last_ts": 1792982700,
+   "price": 79536.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -44,8 +44,8 @@
     "sl": 2373.1,
     "entry_fee": 0.49779651540001596
    },
-   "last_ts": 1792971000,
-   "price": 2326.05,
+   "last_ts": 1792982700,
+   "price": 2304.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -58,8 +58,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1792971000,
-   "price": 0.07691,
+   "last_ts": 1792982700,
+   "price": 0.07645,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -72,8 +72,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1792971000,
-   "price": 738.18,
+   "last_ts": 1792982700,
+   "price": 734.5,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -86,8 +86,8 @@
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1792971000,
-   "price": 101.171,
+   "last_ts": 1792982700,
+   "price": 100.64,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -99,20 +99,13 @@
    }
   },
   "XAUTUSD": {
-   "position": {
-    "side": "long",
-    "entry": 3999.82,
-    "qty": 0.80197043866974,
-    "time": 1792935900,
-    "sl": 3996.25,
-    "entry_fee": 0.6415474800000001
-   },
-   "last_ts": 1792971000,
-   "price": 4006.77,
+   "position": null,
+   "last_ts": 1792982700,
+   "price": 4006.91,
    "indicator": {
-    "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -120,6 +113,6 @@
    }
   }
  },
- "balance": 1027.9998,
- "updated": "2026-10-26T05:26:09.788886+05:30"
+ "balance": 1022.2521,
+ "updated": "2026-10-26T08:32:51.159634+05:30"
 }

@@ -55,3 +55,4 @@
 {"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1792939500, "exit_time": 1792964700, "entry": 101.391, "exit": 101.16, "qty": 15.935108792846345, "reason": "reverse", "gross": -3.681, "fees": 0.6455, "net": -4.3265}
 {"event": "entry", "side": "short", "entry": 101.16, "qty": 20.764487025947904, "time": 1792964700, "sl": 101.661, "entry_fee": 0.42010710150897795, "symbol": "SOLUSD"}
 {"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1792964700, "exit_time": 1792965600, "entry": 101.16, "exit": 101.6813322, "qty": 20.764487025947904, "reason": "stop", "gross": -10.8252, "fees": 1.4758, "net": -12.301}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1792935900, "exit_time": 1792972800, "entry": 3999.82, "exit": 3995.45075, "qty": 0.80197043866974, "reason": "stop", "gross": -3.504, "fees": 2.2437, "net": -5.7477}
