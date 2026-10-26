@@ -2,48 +2,64 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793001600,
-   "price": 1.2884
+   "last_ts": 1793026800,
+   "price": 1.2977
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793001600,
-   "price": 80200.0
+   "last_ts": 1793026800,
+   "price": 80399.5
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793001600,
-   "price": 2324.4
+   "last_ts": 1793026800,
+   "price": 2327.55
   },
   "DOGEUSD": {
-   "position": null,
-   "last_ts": 1793001600,
-   "price": 0.07718
-  },
-  "BNBUSD": {
-   "position": null,
-   "last_ts": 1793001600,
-   "price": 736.64
-  },
-  "SOLUSD": {
-   "position": null,
-   "last_ts": 1793001600,
-   "price": 101.131
-  },
-  "XAUTUSD": {
    "position": {
     "side": "long",
-    "entry": 4014.13,
-    "qty": 0.5698435123341327,
-    "time": 1792983600,
-    "atr": 8.020714285714316,
-    "sl": 4005.6614285714286,
-    "entry_fee": 0.4574851876331624
+    "entry": 0.07797,
+    "qty": 6623.988405797119,
+    "time": 1793023200,
+    "atr": 0.0006899999999999981,
+    "sl": 0.07659,
+    "entry_fee": 0.10329447520000029
    },
-   "last_ts": 1793001600,
-   "price": 4024.41
+   "last_ts": 1793026800,
+   "price": 0.07782
+  },
+  "BNBUSD": {
+   "position": {
+    "side": "long",
+    "entry": 745.54,
+    "qty": 0.8962996456135975,
+    "time": 1793023200,
+    "atr": 5.099357142857116,
+    "sl": 735.3412857142857,
+    "entry_fee": 0.1336454475581523
+   },
+   "last_ts": 1793026800,
+   "price": 744.24
+  },
+  "SOLUSD": {
+   "position": {
+    "side": "long",
+    "entry": 102.131,
+    "qty": 4.6153871898442,
+    "time": 1793023200,
+    "atr": 0.9902857142857145,
+    "sl": 100.15042857142858,
+    "entry_fee": 0.0942748218171956
+   },
+   "last_ts": 1793026800,
+   "price": 101.91
+  },
+  "XAUTUSD": {
+   "position": null,
+   "last_ts": 1793026800,
+   "price": 4022.22
   }
  },
- "balance": 914.1104,
- "updated": "2026-10-26T15:19:17.979334+05:30"
+ "balance": 907.2296,
+ "updated": "2026-10-26T22:04:52.423006+05:30"
 }
