@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-26 22:04 IST
+**Last update:** 2026-10-27 02:55 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| DOGEUSD | long | 0.07797 | 0.07659 | 0.07782 | 6,623.99 | $-0.99 |
-| BNBUSD | long | 745.54 | 735.341 | 744.24 | 0.8963 | $-1.17 |
-| SOLUSD | long | 102.131 | 100.15 | 101.91 | 4.61539 | $-1.02 |
+| DOGEUSD | long | 0.07797 | 0.07659 | 0.07723 | 6,623.99 | $-4.90 |
+| BNBUSD | long | 745.54 | 735.85 | 740.5 | 0.8963 | $-4.52 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | long | 10-26 19:30 | 10-26 21:30 | 102.131 | 101.32 | mid_exit | $-3.93 |
 | XAUTUSD | long | 10-26 08:30 | 10-26 18:30 | 4,014.13 | 4,004.86 | stop | $-6.88 |
 | SOLUSD | short | 10-26 08:30 | 10-26 09:30 | 100.231 | 101.32 | mid_exit | $-6.69 |
 | BTCUSD | short | 10-26 06:30 | 10-26 10:30 | 79,719 | 80,234.5 | mid_exit | $-7.04 |
@@ -46,11 +46,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $907.23 |
-| Realized P&L | $-92.77 |
-| Unrealized P&L | $-3.18 |
-| Total P&L | $-95.95 |
-| Closed trades | 24 |
-| Win rate | 29% |
+| Balance (realized) | $903.30 |
+| Realized P&L | $-96.70 |
+| Unrealized P&L | $-9.42 |
+| Total P&L | $-106.12 |
+| Closed trades | 25 |
+| Win rate | 28% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
