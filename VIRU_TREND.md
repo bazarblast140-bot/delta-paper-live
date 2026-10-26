@@ -2,20 +2,24 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-10-26 21:19 IST
+**Last update:** 2026-10-27 02:23 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.3035 | 1.2909 | 1.3031 | 795.302 | $-0.32 |
-| ETHUSD | short | 2,364.55 | 2,373.1 | 2,337.65 | 1.05262 | $28.32 |
-| DOGEUSD | long | 0.07801 | 0.07751 | 0.07804 | 19,803.6 | $0.59 |
+| BTCUSD | short | 79,929.5 | 80,156.5 | 79,807 | 0.0355884 | $4.36 |
+| ETHUSD | short | 2,364.55 | 2,373.1 | 2,307.15 | 1.05262 | $60.42 |
+| DOGEUSD | short | 0.07726 | 0.07753 | 0.07718 | 34,700.1 | $2.78 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| XAUTUSD | short | 10-27 00:30 | 10-27 01:15 | 4,017.45 | 4,023.01 | stop | $-5.86 |
+| DOGEUSD | long | 10-26 20:45 | 10-26 21:45 | 0.07801 | 0.0774945 | stop | $-11.29 |
+| XRPUSD | long | 10-26 23:45 | 10-27 00:15 | 1.3015 | 1.29464 | stop | $-11.29 |
+| XRPUSD | long | 10-26 20:15 | 10-26 21:45 | 1.3035 | 1.29064 | stop | $-10.95 |
 | XAUTUSD | short | 10-26 19:00 | 10-26 19:45 | 4,009.46 | 4,022.21 | stop | $-11.44 |
 | XAUTUSD | long | 10-26 08:45 | 10-26 19:00 | 4,019.96 | 4,009.46 | reverse | $-8.32 |
 | BTCUSD | short | 10-26 18:45 | 10-26 20:15 | 79,915.5 | 80,316.1 | stop | $-11.90 |
@@ -58,11 +62,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $970.42 |
-| Realized P&L | $-29.57 |
-| Unrealized P&L | $28.59 |
-| Total P&L | $-0.98 |
-| Closed trades | 36 |
-| Win rate | 25% |
+| Balance (realized) | $931.04 |
+| Realized P&L | $-68.96 |
+| Unrealized P&L | $67.56 |
+| Total P&L | $-1.40 |
+| Closed trades | 40 |
+| Win rate | 22% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
