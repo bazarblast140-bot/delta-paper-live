@@ -83,3 +83,10 @@
 {"event": "exit", "symbol": "XAUTUSD", "side": "short", "entry_time": 1793041200, "exit_time": 1793043900, "entry": 4017.45, "exit": 4023.014442, "qty": 0.6996247619758803, "reason": "stop", "gross": -3.893, "fees": 1.9694, "net": -5.8625}
 {"event": "exit", "symbol": "BTCUSD", "side": "short", "entry_time": 1793042100, "exit_time": 1793051100, "entry": 79929.5, "exit": 80172.5313, "qty": 0.035588397275098674, "reason": "stop", "gross": -8.6491, "fees": 1.9955, "net": -10.6446}
 {"event": "exit", "symbol": "DOGEUSD", "side": "short", "entry_time": 1793040300, "exit_time": 1793050200, "entry": 0.07726, "exit": 0.077545506, "qty": 34700.092592591776, "reason": "stop", "gross": -9.9071, "fees": 1.8816, "net": -11.7887}
+{"event": "entry", "side": "short", "entry": 79662.0, "qty": 0.03018626910299003, "time": 1793070000, "sl": 79963.0, "entry_fee": 0.4809397138564784, "symbol": "BTCUSD"}
+{"event": "exit", "symbol": "ETHUSD", "side": "short", "entry_time": 1792832400, "exit_time": 1793059200, "entry": 2364.55, "exit": 2326.7, "qty": 1.0526242105263495, "reason": "reverse", "gross": 39.8418, "fees": 0.9876, "net": 38.8542}
+{"event": "entry", "side": "long", "entry": 2326.7, "qty": 1.2216369536253064, "time": 1793059200, "sl": 2320.7, "entry_fee": 0.56847654, "symbol": "ETHUSD"}
+{"event": "exit", "symbol": "ETHUSD", "side": "long", "entry_time": 1793059200, "exit_time": 1793063700, "entry": 2326.7, "exit": 2320.23586, "qty": 1.2216369536253064, "reason": "stop", "gross": -7.8968, "fees": 1.9857, "net": -9.8826}
+{"event": "entry", "side": "long", "entry": 0.07791, "qty": 36102.36041586446, "time": 1793059200, "sl": 0.07771, "entry_fee": 0.56254698, "symbol": "DOGEUSD"}
+{"event": "exit", "symbol": "DOGEUSD", "side": "long", "entry_time": 1793059200, "exit_time": 1793066400, "entry": 0.07791, "exit": 0.07769445800000001, "qty": 36102.36041586446, "reason": "stop", "gross": -7.7816, "fees": 1.965, "net": -9.7466}
+{"event": "entry", "side": "short", "entry": 739.66, "qty": 3.7632089067950143, "time": 1793069100, "sl": 741.1, "entry_fee": 0.55669902, "symbol": "BNBUSD"}
