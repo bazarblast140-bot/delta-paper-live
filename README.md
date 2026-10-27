@@ -2,20 +2,22 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-27 06:43 IST
+**Last update:** 2026-10-27 12:54 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.3105 | 1.28719 | 1.3099 | 387.444 | $-0.23 |
-| DOGEUSD | long | 0.07797 | 0.0767157 | 0.07787 | 6,623.99 | $-0.66 |
-| BNBUSD | long | 745.54 | 736.9 | 744.36 | 0.8963 | $-1.06 |
+| XRPUSD | long | 1.3105 | 1.28719 | 1.298 | 387.444 | $-4.84 |
+| BNBUSD | short | 734.75 | 740.327 | 734.75 | 1.59884 | $-0.00 |
+| SOLUSD | short | 99.59 | 100.861 | 99.59 | 7.01337 | $-0.00 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| BNBUSD | long | 10-26 19:30 | 10-27 08:30 | 745.54 | 738.39 | mid_exit | $-6.67 |
+| DOGEUSD | long | 10-26 19:30 | 10-27 11:30 | 0.07797 | 0.07725 | mid_exit | $-4.97 |
 | SOLUSD | long | 10-26 19:30 | 10-26 21:30 | 102.131 | 101.32 | mid_exit | $-3.93 |
 | XAUTUSD | long | 10-26 08:30 | 10-26 18:30 | 4,014.13 | 4,004.86 | stop | $-6.88 |
 | SOLUSD | short | 10-26 08:30 | 10-26 09:30 | 100.231 | 101.32 | mid_exit | $-6.69 |
@@ -47,11 +49,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $903.30 |
-| Realized P&L | $-96.70 |
-| Unrealized P&L | $-1.95 |
-| Total P&L | $-98.65 |
-| Closed trades | 25 |
-| Win rate | 28% |
+| Balance (realized) | $891.65 |
+| Realized P&L | $-108.35 |
+| Unrealized P&L | $-4.84 |
+| Total P&L | $-113.19 |
+| Closed trades | 27 |
+| Win rate | 26% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
