@@ -2,14 +2,15 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-27 02:55 IST
+**Last update:** 2026-10-27 06:43 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| DOGEUSD | long | 0.07797 | 0.07659 | 0.07723 | 6,623.99 | $-4.90 |
-| BNBUSD | long | 745.54 | 735.85 | 740.5 | 0.8963 | $-4.52 |
+| XRPUSD | long | 1.3105 | 1.28719 | 1.3099 | 387.444 | $-0.23 |
+| DOGEUSD | long | 0.07797 | 0.0767157 | 0.07787 | 6,623.99 | $-0.66 |
+| BNBUSD | long | 745.54 | 736.9 | 744.36 | 0.8963 | $-1.06 |
 
 ## Closed trades
 
@@ -48,8 +49,8 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Starting balance | $1,000.00 |
 | Balance (realized) | $903.30 |
 | Realized P&L | $-96.70 |
-| Unrealized P&L | $-9.42 |
-| Total P&L | $-106.12 |
+| Unrealized P&L | $-1.95 |
+| Total P&L | $-98.65 |
 | Closed trades | 25 |
 | Win rate | 28% |
 
