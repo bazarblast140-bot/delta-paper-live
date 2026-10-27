@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-10-27 12:12 IST
+**Last update:** 2026-10-27 18:13 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.3042 | 1.2906 | 1.2994 | 628.867 | $-3.02 |
-| ETHUSD | long | 2,317.7 | 2,301.4 | 2,308.3 | 0.521938 | $-4.91 |
-| DOGEUSD | long | 0.07758 | 0.077 | 0.07746 | 14,494 | $-1.74 |
+| XRPUSD | long | 1.3042 | 1.2906 | 1.3119 | 628.867 | $4.84 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| DOGEUSD | long | 10-27 04:45 | 10-27 15:00 | 0.07758 | 0.0769846 | stop | $-9.41 |
+| ETHUSD | long | 10-27 04:45 | 10-27 12:15 | 2,317.7 | 2,300.94 | stop | $-9.59 |
 | XAUTUSD | long | 10-27 05:30 | 10-27 06:45 | 4,024.19 | 4,011.07 | stop | $-9.63 |
 | SOLUSD | long | 10-27 05:00 | 10-27 08:00 | 100.83 | 100.271 | stop | $-9.47 |
 | BNBUSD | long | 10-27 05:30 | 10-27 07:45 | 744.77 | 741.952 | stop | $-10.35 |
@@ -85,11 +85,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $770.90 |
-| Realized P&L | $-229.10 |
-| Unrealized P&L | $-9.66 |
-| Total P&L | $-238.77 |
-| Closed trades | 63 |
-| Win rate | 38% |
+| Balance (realized) | $751.90 |
+| Realized P&L | $-248.10 |
+| Unrealized P&L | $4.84 |
+| Total P&L | $-243.26 |
+| Closed trades | 65 |
+| Win rate | 37% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
