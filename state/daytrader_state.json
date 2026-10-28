@@ -1,74 +1,44 @@
 {
- "balance": 689.1367,
+ "balance": 679.5262,
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793171700,
-   "price": 1.326
+   "last_ts": 1793196000,
+   "price": 1.3154
   },
   "BTCUSD": {
-   "position": {
-    "side": "long",
-    "entry": 80933.0,
-    "qty": 0.022286067851373183,
-    "time": 1793151000,
-    "sl": 80623.5,
-    "target": 81242.5,
-    "or_high": 80844.0,
-    "or_low": 80623.5,
-    "entry_fee": 0.3607356658830372
-   },
-   "last_ts": 1793171700,
-   "price": 80917.5
+   "position": null,
+   "last_ts": 1793196000,
+   "price": 80620.5
   },
   "ETHUSD": {
-   "position": {
-    "side": "short",
-    "entry": 2353.0,
-    "qty": 0.8776050573735656,
-    "time": 1793160900,
-    "sl": 2359.85,
-    "target": 2346.15,
-    "or_high": 2359.85,
-    "or_low": 2354.1,
-    "entry_fee": 0.41300094000000004
-   },
-   "last_ts": 1793171700,
-   "price": 2354.2
+   "position": null,
+   "last_ts": 1793196000,
+   "price": 2330.25
   },
   "DOGEUSD": {
-   "position": {
-    "side": "short",
-    "entry": 0.07983,
-    "qty": 13335.157389635124,
-    "time": 1793159100,
-    "sl": 0.080351,
-    "target": 0.07930899999999999,
-    "or_high": 0.080351,
-    "or_low": 0.07993,
-    "entry_fee": 0.2129091228829144
-   },
-   "last_ts": 1793171700,
-   "price": 0.07985
+   "position": null,
+   "last_ts": 1793196000,
+   "price": 0.07897
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793171700,
-   "price": 744.6
+   "last_ts": 1793196000,
+   "price": 749.43
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793171700,
-   "price": 102.02
+   "last_ts": 1793196000,
+   "price": 100.841
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1793171700,
-   "price": 4041.83
+   "last_ts": 1793196000,
+   "price": 4049.65
   }
  },
  "trades_today": 20,
- "daily_pnl": -27.3514,
+ "daily_pnl": -36.9619,
  "day": "2026-10-28",
  "meta": {
   "name": "DayTrader ORB",
@@ -80,5 +50,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-10-28T13:00:10.049371+05:30"
+ "updated": "2026-10-28T19:55:02.963362+05:30"
 }

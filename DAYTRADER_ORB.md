@@ -2,20 +2,19 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-10-28 13:00 IST
+**Last update:** 2026-10-28 19:55 IST
 
 ## Open positions
 
-| Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
-|---|---|---|---|---|---|---|
-| BTCUSD | long | 80,933 | 80,623.5 | 80,917.5 | 0.0222861 | $-0.35 |
-| ETHUSD | short | 2,353 | 2,359.85 | 2,354.2 | 0.877605 | $-1.05 |
-| DOGEUSD | short | 0.07983 | 0.080351 | 0.07985 | 13,335.2 | $-0.27 |
+_None (all flat)._
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| DOGEUSD | short | 10-28 09:15 | 10-28 13:45 | 0.07983 | 0.0803671 | stop | $-7.91 |
+| ETHUSD | short | 10-28 09:45 | 10-28 13:15 | 2,353 | 2,360.32 | stop | $-7.87 |
+| BTCUSD | long | 10-28 07:00 | 10-28 13:45 | 80,933 | 81,242.5 | target_1R | $6.17 |
 | XAUTUSD | short | 10-28 06:30 | 10-28 07:15 | 4,060.82 | 4,052.81 | target_1R | $3.31 |
 | SOLUSD | short | 10-28 03:30 | 10-28 07:00 | 101.271 | 101.661 | stop | $-8.94 |
 | DOGEUSD | long | 10-28 07:00 | 10-28 08:45 | 0.07936 | 0.07984 | target_1R | $6.43 |
@@ -124,11 +123,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $689.14 |
-| Realized P&L | $-310.86 |
-| Unrealized P&L | $-1.67 |
-| Total P&L | $-312.53 |
-| Closed trades | 102 |
+| Balance (realized) | $679.53 |
+| Realized P&L | $-320.47 |
+| Unrealized P&L | $0.00 |
+| Total P&L | $-320.47 |
+| Closed trades | 105 |
 | Win rate | 38% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
