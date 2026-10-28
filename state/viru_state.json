@@ -2,8 +2,8 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793186100,
-   "price": 1.3278,
+   "last_ts": 1793206800,
+   "price": 1.3134,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -16,19 +16,19 @@
   },
   "BTCUSD": {
    "position": {
-    "side": "long",
-    "entry": 81650.0,
-    "qty": 0.016837621621621623,
-    "time": 1793176200,
-    "sl": 81132.0,
-    "entry_fee": 0.2749583610810811
+    "side": "short",
+    "entry": 80788.0,
+    "qty": 0.016518808139534883,
+    "time": 1793190600,
+    "sl": 81304.0,
+    "entry_fee": 0.26690429439534885
    },
-   "last_ts": 1793186100,
-   "price": 81359.0,
+   "last_ts": 1793206800,
+   "price": 80477.0,
    "indicator": {
-    "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -36,13 +36,20 @@
    }
   },
   "ETHUSD": {
-   "position": null,
-   "last_ts": 1793186100,
-   "price": 2362.75,
+   "position": {
+    "side": "short",
+    "entry": 2341.7,
+    "qty": 0.43267538071065387,
+    "time": 1793190600,
+    "sl": 2361.4,
+    "entry_fee": 0.20263918780202764
+   },
+   "last_ts": 1793206800,
+   "price": 2332.15,
    "indicator": {
-    "hema_dir": 1,
+    "hema_dir": -1,
     "osc_dir": -1,
-    "agreement": 0,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -51,19 +58,19 @@
   },
   "DOGEUSD": {
    "position": {
-    "side": "long",
-    "entry": 0.07784,
-    "qty": 15477.408620689363,
-    "time": 1793104200,
-    "sl": 0.07726,
-    "entry_fee": 0.24095229740689203
+    "side": "short",
+    "entry": 0.0794,
+    "qty": 10683.274390243885,
+    "time": 1793190600,
+    "sl": 0.08022,
+    "entry_fee": 0.1696503973170729
    },
-   "last_ts": 1793186100,
-   "price": 0.08024,
+   "last_ts": 1793206800,
+   "price": 0.07893,
    "indicator": {
-    "hema_dir": 1,
+    "hema_dir": -1,
     "osc_dir": -1,
-    "agreement": 0,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -72,19 +79,19 @@
   },
   "BNBUSD": {
    "position": {
-    "side": "long",
-    "entry": 739.54,
-    "qty": 2.3730899470899645,
-    "time": 1793097900,
-    "sl": 735.76,
-    "entry_fee": 0.35099898789418243
+    "side": "short",
+    "entry": 750.11,
+    "qty": 2.6877761194029666,
+    "time": 1793195100,
+    "sl": 753.46,
+    "entry_fee": 0.4032255489850719
    },
-   "last_ts": 1793186100,
-   "price": 759.87,
+   "last_ts": 1793206800,
+   "price": 747.49,
    "indicator": {
-    "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -92,13 +99,20 @@
    }
   },
   "SOLUSD": {
-   "position": null,
-   "last_ts": 1793186100,
-   "price": 102.8703,
+   "position": {
+    "side": "short",
+    "entry": 101.721,
+    "qty": 8.567126546146511,
+    "time": 1793190600,
+    "sl": 102.772,
+    "entry_fee": 0.17429133588011386
+   },
+   "last_ts": 1793206800,
+   "price": 101.1,
    "indicator": {
-    "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -106,20 +120,13 @@
    }
   },
   "XAUTUSD": {
-   "position": {
-    "side": "long",
-    "entry": 4051.2,
-    "qty": 0.6385689425355451,
-    "time": 1793175300,
-    "sl": 4044.99,
-    "entry_fee": 0.5173941
-   },
-   "last_ts": 1793186100,
-   "price": 4049.24,
+   "position": null,
+   "last_ts": 1793206800,
+   "price": 4044.36,
    "indicator": {
-    "hema_dir": 1,
-    "osc_dir": 1,
-    "agreement": 1,
+    "hema_dir": -1,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -127,6 +134,6 @@
    }
   }
  },
- "balance": 862.3235,
- "updated": "2026-10-28T17:09:28.689486+05:30"
+ "balance": 894.1142,
+ "updated": "2026-10-28T22:53:59.663548+05:30"
 }
