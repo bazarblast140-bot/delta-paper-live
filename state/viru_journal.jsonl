@@ -100,3 +100,11 @@
 {"event": "entry", "side": "long", "entry": 739.54, "qty": 2.3730899470899645, "time": 1793097900, "sl": 735.76, "entry_fee": 0.35099898789418243, "symbol": "BNBUSD"}
 {"event": "entry", "side": "short", "entry": 1.3194, "qty": 2039.6271032287405, "time": 1793135700, "sl": 1.3227, "entry_fee": 0.5382167999999999, "symbol": "XRPUSD"}
 {"event": "exit", "symbol": "XRPUSD", "side": "short", "entry_time": 1793135700, "exit_time": 1793136600, "entry": 1.3194, "exit": 1.3229645399999999, "qty": 2039.6271032287405, "reason": "stop", "gross": -7.2703, "fees": 1.8874, "net": -9.1577}
+{"event": "entry", "side": "short", "entry": 1.328, "qty": 1811.980204081668, "time": 1793165400, "sl": 1.3329, "entry_fee": 0.4812619422040911, "symbol": "XRPUSD"}
+{"event": "exit", "symbol": "XRPUSD", "side": "short", "entry_time": 1793165400, "exit_time": 1793175300, "entry": 1.328, "exit": 1.3331665799999999, "qty": 1811.980204081668, "reason": "stop", "gross": -9.3617, "fees": 1.6891, "net": -11.0508}
+{"event": "entry", "side": "short", "entry": 80840.5, "qty": 0.03253886974969229, "time": 1793169900, "sl": 80910.0, "entry_fee": 0.5260916999999999, "symbol": "BTCUSD"}
+{"event": "exit", "symbol": "BTCUSD", "side": "short", "entry_time": 1793169900, "exit_time": 1793170800, "entry": 80840.5, "exit": 80926.182, "qty": 0.03253886974969229, "reason": "stop", "gross": -2.788, "fees": 1.8427, "net": -4.6307}
+{"event": "entry", "side": "long", "entry": 81650.0, "qty": 0.016837621621621623, "time": 1793176200, "sl": 81132.0, "entry_fee": 0.2749583610810811, "symbol": "BTCUSD"}
+{"event": "entry", "side": "long", "entry": 2380.0, "qty": 0.5367315692307693, "time": 1793176200, "sl": 2363.75, "entry_fee": 0.25548422695384615, "symbol": "ETHUSD"}
+{"event": "exit", "symbol": "ETHUSD", "side": "long", "entry_time": 1793176200, "exit_time": 1793185200, "entry": 2380.0, "exit": 2363.27725, "qty": 0.5367315692307693, "reason": "stop", "gross": -8.9756, "fees": 0.8897, "net": -9.8653}
+{"event": "entry", "side": "long", "entry": 4051.2, "qty": 0.6385689425355451, "time": 1793175300, "sl": 4044.99, "entry_fee": 0.5173941, "symbol": "XAUTUSD"}
