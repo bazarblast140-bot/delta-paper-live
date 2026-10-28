@@ -64,3 +64,5 @@
 {"event": "entry", "side": "long", "entry": 0.0782, "qty": 7584.8508750000465, "time": 1793113200, "atr": 0.000571428571428568, "sl": 0.07705714285714287, "entry_fee": 0.11862706768500073, "symbol": "DOGEUSD"}
 {"event": "entry", "side": "long", "entry": 749.93, "qty": 1.149698870741604, "time": 1793113200, "atr": 3.76985714285712, "sl": 742.3902857142857, "entry_fee": 0.17243873482705022, "symbol": "BNBUSD"}
 {"event": "entry", "side": "long", "entry": 4056.53, "qty": 0.31802309748427726, "time": 1793109600, "atr": 13.628571428571409, "sl": 4029.2728571428574, "entry_fee": 0.2580140471275791, "symbol": "XAUTUSD"}
+{"event": "exit", "symbol": "BNBUSD", "side": "long", "entry_time": 1793113200, "exit_time": 1793145600, "entry": 749.93, "exit": 743.261318, "qty": 1.149698870741604, "reason": "stop", "gross": -7.667, "fees": 0.5997, "net": -8.2667}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1793109600, "exit_time": 1793152800, "entry": 4056.53, "exit": 4045.4935965714285, "qty": 0.31802309748427726, "reason": "stop", "gross": -3.5098, "fees": 0.9013, "net": -4.4111}
