@@ -1,5 +1,5 @@
 {
- "balance": 657.339,
+ "balance": 654.3057,
  "symbols": {
   "XRPUSD": {
    "position": {
@@ -13,8 +13,8 @@
     "or_low": 1.3086,
     "entry_fee": 0.09235933467446734
    },
-   "last_ts": 1793250000,
-   "price": 1.3032
+   "last_ts": 1793272500,
+   "price": 1.2905
   },
   "BTCUSD": {
    "position": {
@@ -28,67 +28,37 @@
     "or_low": 79941.5,
     "entry_fee": 0.16823130474660422
    },
-   "last_ts": 1793250000,
-   "price": 80412.5
+   "last_ts": 1793272500,
+   "price": 80115.5
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793250000,
-   "price": 2332.15
+   "last_ts": 1793272500,
+   "price": 2322.0
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793250000,
-   "price": 0.07898
+   "last_ts": 1793272500,
+   "price": 0.07865
   },
   "BNBUSD": {
-   "position": {
-    "side": "long",
-    "entry": 753.91,
-    "qty": 1.1419533333333471,
-    "time": 1793249100,
-    "sl": 748.21,
-    "target": 759.6099999999999,
-    "or_high": 752.41,
-    "or_low": 748.21,
-    "entry_fee": 0.17218600750666874
-   },
-   "last_ts": 1793250000,
-   "price": 759.09
+   "position": null,
+   "last_ts": 1793272500,
+   "price": 738.94
   },
   "SOLUSD": {
-   "position": {
-    "side": "short",
-    "entry": 99.539,
-    "qty": 5.379206219312628,
-    "time": 1793239200,
-    "sl": 100.761,
-    "target": 98.31700000000001,
-    "or_high": 100.761,
-    "or_low": 99.73,
-    "entry_fee": 0.10708816157283195
-   },
-   "last_ts": 1793250000,
-   "price": 100.671
+   "position": null,
+   "last_ts": 1793272500,
+   "price": 100.431
   },
   "XAUTUSD": {
-   "position": {
-    "side": "short",
-    "entry": 4056.92,
-    "qty": 0.2667391461941208,
-    "time": 1793218500,
-    "sl": 4081.75,
-    "target": 4032.09,
-    "or_high": 4081.75,
-    "or_low": 4067.1,
-    "entry_fee": 0.21642787539557054
-   },
-   "last_ts": 1793250000,
-   "price": 4046.68
+   "position": null,
+   "last_ts": 1793272500,
+   "price": 4035.0
   }
  },
- "trades_today": 19,
- "daily_pnl": 29.8585,
+ "trades_today": 20,
+ "daily_pnl": 26.8252,
  "day": "2026-10-29",
  "meta": {
   "name": "DayTrader ORB",
@@ -100,5 +70,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-10-29T10:45:18.341074+05:30"
+ "updated": "2026-10-29T17:05:59.150096+05:30"
 }
