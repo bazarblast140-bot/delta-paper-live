@@ -2,20 +2,23 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-10-29 07:00 IST
+**Last update:** 2026-10-29 13:07 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | short | 1.3215 | 1.3261 | 1.318 | 1,836.5 | $6.43 |
-| DOGEUSD | short | 0.07943 | 0.07985 | 0.07943 | 20,114.1 | $-0.00 |
-| SOLUSD | short | 101.641 | 102.053 | 101.438 | 20.5047 | $4.16 |
+| XRPUSD | short | 1.3215 | 1.3261 | 1.2908 | 1,836.5 | $56.38 |
+| BTCUSD | short | 80,515 | 81,066 | 79,842.5 | 0.015155 | $10.19 |
+| ETHUSD | short | 2,331.15 | 2,353.25 | 2,305.4 | 0.377847 | $9.73 |
+| DOGEUSD | short | 0.07943 | 0.07985 | 0.07782 | 20,114.1 | $32.38 |
+| SOLUSD | short | 101.641 | 102.053 | 99.74 | 20.5047 | $38.98 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| BNBUSD | short | 10-29 07:00 | 10-29 10:30 | 751.13 | 755.121 | stop | $-9.83 |
 | XAUTUSD | long | 10-29 01:15 | 10-29 05:00 | 4,074.1 | 4,049.59 | stop | $-9.75 |
 | SOLUSD | short | 10-28 18:00 | 10-29 01:15 | 101.721 | 102.793 | stop | $-9.79 |
 | BNBUSD | short | 10-28 19:15 | 10-29 01:15 | 750.11 | 753.611 | stop | $-10.83 |
@@ -85,11 +88,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $835.04 |
-| Realized P&L | $-164.96 |
-| Unrealized P&L | $10.59 |
-| Total P&L | $-154.37 |
-| Closed trades | 63 |
+| Balance (realized) | $825.22 |
+| Realized P&L | $-174.78 |
+| Unrealized P&L | $147.67 |
+| Total P&L | $-27.12 |
+| Closed trades | 64 |
 | Win rate | 19% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
