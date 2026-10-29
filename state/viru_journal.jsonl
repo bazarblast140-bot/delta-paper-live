@@ -131,3 +131,6 @@
 {"event": "entry", "side": "short", "entry": 2331.15, "qty": 0.37784746606334996, "time": 1793237400, "sl": 2353.25, "entry_fee": 0.17616382410271567, "symbol": "ETHUSD"}
 {"event": "entry", "side": "short", "entry": 751.13, "qty": 2.1745908854166487, "time": 1793237400, "sl": 754.97, "entry_fee": 0.3266800903526015, "symbol": "BNBUSD"}
 {"event": "exit", "symbol": "BNBUSD", "side": "short", "entry_time": 1793237400, "exit_time": 1793250000, "entry": 751.13, "exit": 755.120994, "qty": 2.1745908854166487, "reason": "stop", "gross": -8.6788, "fees": 1.1477, "net": -9.8265}
+{"event": "entry", "side": "short", "entry": 749.14, "qty": 3.304654937661852, "time": 1793259000, "sl": 751.1, "entry_fee": 0.49512984, "symbol": "BNBUSD"}
+{"event": "exit", "symbol": "BNBUSD", "side": "short", "entry_time": 1793259000, "exit_time": 1793260800, "entry": 749.14, "exit": 751.25022, "qty": 3.304654937661852, "reason": "stop", "gross": -6.9735, "fees": 1.7364, "net": -8.71}
+{"event": "entry", "side": "short", "entry": 740.22, "qty": 1.04146224489797, "time": 1793268900, "sl": 748.06, "entry_fee": 0.15418223658367508, "symbol": "BNBUSD"}
