@@ -2,13 +2,13 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-10-30 01:21 IST
+**Last update:** 2026-10-30 05:16 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | short | 1.3215 | 1.3261 | 1.2867 | 1,836.5 | $63.91 |
+| XRPUSD | short | 1.3215 | 1.3261 | 1.241 | 1,836.5 | $147.84 |
 
 ## Closed trades
 
@@ -93,8 +93,8 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Starting balance | $1,000.00 |
 | Balance (realized) | $760.35 |
 | Realized P&L | $-239.65 |
-| Unrealized P&L | $63.91 |
-| Total P&L | $-175.74 |
+| Unrealized P&L | $147.84 |
+| Total P&L | $-91.81 |
 | Closed trades | 71 |
 | Win rate | 17% |
 

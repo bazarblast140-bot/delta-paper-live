@@ -9,8 +9,8 @@
     "sl": 1.3261,
     "entry_fee": 0.4853879842173744
    },
-   "last_ts": 1793302200,
-   "price": 1.2867,
+   "last_ts": 1793316600,
+   "price": 1.241,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -23,8 +23,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 80823.5,
+   "last_ts": 1793316600,
+   "price": 78373.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -37,8 +37,8 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 2333.75,
+   "last_ts": 1793316600,
+   "price": 2260.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -51,8 +51,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 0.07948,
+   "last_ts": 1793316600,
+   "price": 0.07571,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -65,8 +65,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 744.87,
+   "last_ts": 1793316600,
+   "price": 701.58,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -74,13 +74,13 @@
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
-    "event": "cancel_wick"
+    "event": null
    }
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 100.131,
+   "last_ts": 1793316600,
+   "price": 96.328,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -93,12 +93,12 @@
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1793302200,
-   "price": 4024.0,
+   "last_ts": 1793316600,
+   "price": 4015.04,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "osc_dir": 1,
+    "agreement": 0,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -107,5 +107,5 @@
   }
  },
  "balance": 760.3531,
- "updated": "2026-10-30T01:21:55.665345+05:30"
+ "updated": "2026-10-30T05:16:55.167957+05:30"
 }
