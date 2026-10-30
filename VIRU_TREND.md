@@ -2,20 +2,21 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-10-30 16:23 IST
+**Last update:** 2026-10-30 22:26 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.2476 | 1.2326 | 1.2569 | 596.751 | $5.55 |
-| DOGEUSD | long | 0.07599 | 0.0751 | 0.07592 | 10,057.6 | $-0.70 |
-| BNBUSD | short | 704.59 | 705.92 | 704.11 | 3.7227 | $1.79 |
+| BNBUSD | short | 704.59 | 705.92 | 699.52 | 3.7227 | $18.87 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| DOGEUSD | short | 10-30 19:30 | 10-30 20:00 | 0.075 | 0.0758652 | stop | $-9.09 |
+| DOGEUSD | long | 10-30 09:00 | 10-30 19:15 | 0.07599 | 0.075085 | stop | $-9.63 |
+| XRPUSD | long | 10-30 09:15 | 10-30 19:30 | 1.2476 | 1.23235 | stop | $-9.62 |
 | SOLUSD | short | 10-30 15:30 | 10-30 16:00 | 96.498 | 97.0574 | stop | $-10.12 |
 | SOLUSD | long | 10-30 09:00 | 10-30 15:30 | 97.018 | 96.498 | reverse | $-3.29 |
 | BTCUSD | short | 10-30 15:30 | 10-30 16:00 | 77,420 | 77,740 | stop | $-10.88 |
@@ -98,11 +99,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $860.91 |
-| Realized P&L | $-139.09 |
-| Unrealized P&L | $6.63 |
-| Total P&L | $-132.45 |
-| Closed trades | 76 |
-| Win rate | 17% |
+| Balance (realized) | $832.58 |
+| Realized P&L | $-167.42 |
+| Unrealized P&L | $18.87 |
+| Total P&L | $-148.55 |
+| Closed trades | 79 |
+| Win rate | 16% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
