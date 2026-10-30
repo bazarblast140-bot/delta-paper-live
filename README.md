@@ -2,23 +2,23 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-30 07:07 IST
+**Last update:** 2026-10-30 13:40 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | short | 1.239 | 1.26321 | 1.2251 | 284.922 | $3.96 |
-| BTCUSD | short | 78,808.5 | 78,928.9 | 77,208.5 | 0.00658263 | $10.53 |
-| ETHUSD | short | 2,256.7 | 2,286.35 | 2,221.6 | 0.169604 | $5.95 |
-| DOGEUSD | short | 0.07545 | 0.0771537 | 0.07432 | 3,860.48 | $4.36 |
-| SOLUSD | short | 96.158 | 98.1545 | 94.888 | 3.4769 | $4.42 |
-| XAUTUSD | short | 4,012.95 | 4,033.77 | 4,007.87 | 0.294542 | $1.50 |
+| ETHUSD | short | 2,256.7 | 2,265.69 | 2,235.8 | 0.169604 | $3.54 |
+| DOGEUSD | short | 0.07545 | 0.077079 | 0.07569 | 3,860.48 | $-0.93 |
+| XAUTUSD | short | 4,012.95 | 4,011.64 | 3,985.46 | 0.294542 | $8.10 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | short | 10-30 01:30 | 10-30 09:30 | 96.158 | 97.4606 | stop | $-4.77 |
+| BTCUSD | short | 10-30 01:30 | 10-30 10:30 | 78,808.5 | 78,606.3 | stop | $0.97 |
+| XRPUSD | short | 10-30 01:30 | 10-30 09:30 | 1.239 | 1.25199 | stop | $-3.95 |
 | BNBUSD | short | 10-30 01:30 | 10-30 02:30 | 696.28 | 715.063 | stop | $-8.37 |
 | SOLUSD | short | 10-29 06:30 | 10-29 19:30 | 99.86 | 101.638 | stop | $-7.73 |
 | BNBUSD | short | 10-29 15:30 | 10-29 20:30 | 742.21 | 751.399 | stop | $-6.94 |
@@ -71,11 +71,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $800.41 |
-| Realized P&L | $-199.59 |
-| Unrealized P&L | $30.72 |
-| Total P&L | $-168.87 |
-| Closed trades | 46 |
+| Balance (realized) | $792.66 |
+| Realized P&L | $-207.34 |
+| Unrealized P&L | $10.72 |
+| Total P&L | $-196.63 |
+| Closed trades | 49 |
 | Win rate | 24% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
