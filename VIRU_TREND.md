@@ -2,20 +2,23 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-10-30 09:44 IST
+**Last update:** 2026-10-30 16:23 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.2476 | 1.2326 | 1.2476 | 596.751 | $0.00 |
-| DOGEUSD | long | 0.07599 | 0.0751 | 0.07615 | 10,057.6 | $1.61 |
-| SOLUSD | long | 97.018 | 95.517 | 97.25 | 5.89747 | $1.37 |
+| XRPUSD | long | 1.2476 | 1.2326 | 1.2569 | 596.751 | $5.55 |
+| DOGEUSD | long | 0.07599 | 0.0751 | 0.07592 | 10,057.6 | $-0.70 |
+| BNBUSD | short | 704.59 | 705.92 | 704.11 | 3.7227 | $1.79 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | short | 10-30 15:30 | 10-30 16:00 | 96.498 | 97.0574 | stop | $-10.12 |
+| SOLUSD | long | 10-30 09:00 | 10-30 15:30 | 97.018 | 96.498 | reverse | $-3.29 |
+| BTCUSD | short | 10-30 15:30 | 10-30 16:00 | 77,420 | 77,740 | stop | $-10.88 |
 | BNBUSD | long | 10-30 08:00 | 10-30 08:30 | 713.75 | 707.688 | stop | $-9.92 |
 | XRPUSD | short | 10-29 06:15 | 10-30 09:15 | 1.3215 | 1.2476 | reverse | $134.77 |
 | SOLUSD | short | 10-29 06:30 | 10-29 20:00 | 101.641 | 102.073 | stop | $-10.33 |
@@ -95,11 +98,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $885.21 |
-| Realized P&L | $-114.79 |
-| Unrealized P&L | $2.98 |
-| Total P&L | $-111.81 |
-| Closed trades | 73 |
-| Win rate | 18% |
+| Balance (realized) | $860.91 |
+| Realized P&L | $-139.09 |
+| Unrealized P&L | $6.63 |
+| Total P&L | $-132.45 |
+| Closed trades | 76 |
+| Win rate | 17% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
