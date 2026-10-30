@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-10-30 21:07 IST
+**Last update:** 2026-10-31 01:58 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| ETHUSD | short | 2,256.7 | 2,265.69 | 2,236.4 | 0.169604 | $3.44 |
-| DOGEUSD | short | 0.07545 | 0.077079 | 0.07577 | 3,860.48 | $-1.24 |
-| XAUTUSD | short | 4,012.95 | 3,960.16 | 3,923.24 | 0.294542 | $26.42 |
+| XAUTUSD | short | 4,012.95 | 3,926.86 | 3,895.04 | 0.294542 | $34.73 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| DOGEUSD | short | 10-30 01:30 | 10-30 20:30 | 0.07545 | 0.07596 | mid_exit | $-2.09 |
+| ETHUSD | short | 10-30 01:30 | 10-30 22:30 | 2,256.7 | 2,242.5 | mid_exit | $2.26 |
 | SOLUSD | short | 10-30 01:30 | 10-30 09:30 | 96.158 | 97.4606 | stop | $-4.77 |
 | BTCUSD | short | 10-30 01:30 | 10-30 10:30 | 78,808.5 | 78,606.3 | stop | $0.97 |
 | XRPUSD | short | 10-30 01:30 | 10-30 09:30 | 1.239 | 1.25199 | stop | $-3.95 |
@@ -71,11 +71,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $792.66 |
-| Realized P&L | $-207.34 |
-| Unrealized P&L | $28.63 |
-| Total P&L | $-178.71 |
-| Closed trades | 49 |
-| Win rate | 24% |
+| Balance (realized) | $792.83 |
+| Realized P&L | $-207.17 |
+| Unrealized P&L | $34.73 |
+| Total P&L | $-172.44 |
+| Closed trades | 51 |
+| Win rate | 25% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
