@@ -1,5 +1,5 @@
 {
- "balance": 637.8588,
+ "balance": 634.249,
  "symbols": {
   "XRPUSD": {
    "position": {
@@ -13,33 +13,53 @@
     "or_low": 1.2385,
     "entry_fee": 0.15928518070825498
    },
-   "last_ts": 1793388600,
-   "price": 1.2494
+   "last_ts": 1793402100,
+   "price": 1.2549
   },
   "BTCUSD": {
    "position": {
-    "side": "short",
-    "entry": 76681.0,
-    "qty": 0.0164417009569378,
-    "time": 1793385000,
-    "sl": 77099.0,
-    "target": 76263.0,
-    "or_high": 77099.0,
-    "or_low": 76837.5,
-    "entry_fee": 0.25215321421578946
+    "side": "long",
+    "entry": 76959.5,
+    "qty": 0.022509586837294333,
+    "time": 1793399400,
+    "sl": 76686.0,
+    "target": 77233.0,
+    "or_high": 76868.0,
+    "or_low": 76686.0,
+    "entry_fee": 0.3464653096409506
    },
-   "last_ts": 1793388600,
-   "price": 76606.0
+   "last_ts": 1793402100,
+   "price": 77136.0
   },
   "ETHUSD": {
-   "position": null,
-   "last_ts": 1793388600,
-   "price": 2231.9
+   "position": {
+    "side": "long",
+    "entry": 2238.0,
+    "qty": 0.4202301706484616,
+    "time": 1793389500,
+    "sl": 2223.35,
+    "target": 2252.65,
+    "or_high": 2233.5,
+    "or_low": 2223.35,
+    "entry_fee": 0.18809502438225142
+   },
+   "last_ts": 1793402100,
+   "price": 2241.55
   },
   "DOGEUSD": {
-   "position": null,
-   "last_ts": 1793388600,
-   "price": 0.07511
+   "position": {
+    "side": "long",
+    "entry": 0.07541,
+    "qty": 9619.331249999976,
+    "time": 1793389500,
+    "sl": 0.07477,
+    "target": 0.07605,
+    "or_high": 0.07515,
+    "or_low": 0.07477,
+    "entry_fee": 0.14507875391249964
+   },
+   "last_ts": 1793402100,
+   "price": 0.07584
   },
   "BNBUSD": {
    "position": {
@@ -53,32 +73,32 @@
     "or_low": 678.43,
     "entry_fee": 0.029468634931568732
    },
-   "last_ts": 1793388600,
-   "price": 697.81
+   "last_ts": 1793402100,
+   "price": 702.23
   },
   "SOLUSD": {
-   "position": {
-    "side": "long",
-    "entry": 94.2475,
-    "qty": 10.824321093082908,
-    "time": 1793385900,
-    "sl": 93.662,
-    "target": 94.833,
-    "or_high": 94.12,
-    "or_low": 93.662,
-    "entry_fee": 0.20403304044406628
-   },
-   "last_ts": 1793388600,
-   "price": 94.587
+   "position": null,
+   "last_ts": 1793402100,
+   "price": 96.028
   },
   "XAUTUSD": {
-   "position": null,
-   "last_ts": 1793388600,
-   "price": 3881.43
+   "position": {
+    "side": "long",
+    "entry": 3895.04,
+    "qty": 0.4566227501799898,
+    "time": 1793389500,
+    "sl": 3881.15,
+    "target": 3908.93,
+    "or_high": 3889.91,
+    "or_low": 3881.15,
+    "entry_fee": 0.3557127753722135
+   },
+   "last_ts": 1793402100,
+   "price": 3890.25
   }
  },
- "trades_today": 1,
- "daily_pnl": -5.0491,
+ "trades_today": 10,
+ "daily_pnl": -8.6589,
  "day": "2026-10-31",
  "meta": {
   "name": "DayTrader ORB",
@@ -90,5 +110,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-10-31T01:26:55.300011+05:30"
+ "updated": "2026-10-31T05:02:38.594818+05:30"
 }
