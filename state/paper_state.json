@@ -2,13 +2,13 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793448000,
-   "price": 1.2506
+   "last_ts": 1793466000,
+   "price": 1.255
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793448000,
-   "price": 77509.5
+   "last_ts": 1793466000,
+   "price": 77664.0
   },
   "ETHUSD": {
    "position": {
@@ -17,26 +17,26 @@
     "qty": 0.5467777931034434,
     "time": 1793448000,
     "atr": 7.250000000000065,
-    "sl": 2236.9,
+    "sl": 2239.85,
     "entry_fee": 0.2462031046786185
    },
-   "last_ts": 1793448000,
-   "price": 2251.4
+   "last_ts": 1793466000,
+   "price": 2253.9
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793448000,
-   "price": 0.07539
+   "last_ts": 1793466000,
+   "price": 0.07594
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793448000,
-   "price": 705.42
+   "last_ts": 1793466000,
+   "price": 707.07
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793448000,
-   "price": 96.089
+   "last_ts": 1793466000,
+   "price": 96.058
   },
   "XAUTUSD": {
    "position": {
@@ -45,13 +45,13 @@
     "qty": 0.29454212579990763,
     "time": 1793293200,
     "atr": 13.729285714285652,
-    "sl": 3891.864285714286,
+    "sl": 3888.301428571429,
     "entry_fee": 0.23639656474574786
    },
-   "last_ts": 1793448000,
-   "price": 3885.75
+   "last_ts": 1793466000,
+   "price": 3883.83
   }
  },
  "balance": 792.8278,
- "updated": "2026-10-31T18:53:19.116631+05:30"
+ "updated": "2026-10-31T23:46:04.940758+05:30"
 }
