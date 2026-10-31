@@ -162,3 +162,10 @@
 {"event": "entry", "side": "long", "entry": 95.118, "qty": 18.654848072562856, "time": 1793392200, "sl": 94.677, "entry_fee": 0.35488236779320675, "symbol": "SOLUSD"}
 {"event": "exit", "symbol": "BNBUSD", "side": "short", "entry_time": 1793349900, "exit_time": 1793404800, "entry": 704.59, "exit": 706.0611839999999, "qty": 3.7227045515831905, "reason": "stop", "gross": -5.4768, "fees": 1.8388, "net": -7.3156}
 {"event": "entry", "side": "long", "entry": 3891.84, "qty": 0.6285175135668476, "time": 1793398500, "sl": 3886.07, "entry_fee": 0.4892179200000001, "symbol": "XAUTUSD"}
+{"event": "entry", "side": "short", "entry": 1.251, "qty": 1734.8153191488814, "time": 1793418300, "sl": 1.2557, "entry_fee": 0.43405079285105014, "symbol": "XRPUSD"}
+{"event": "entry", "side": "short", "entry": 2235.75, "qty": 1.094080107346528, "time": 1793421000, "sl": 2241.4, "entry_fee": 0.4892179200000001, "symbol": "ETHUSD"}
+{"event": "exit", "symbol": "ETHUSD", "side": "short", "entry_time": 1793421000, "exit_time": 1793422800, "entry": 2235.75, "exit": 2241.84828, "qty": 1.094080107346528, "reason": "stop", "gross": -6.672, "fees": 1.7156, "net": -8.3876}
+{"event": "entry", "side": "short", "entry": 0.0756, "qty": 32022.841269841272, "time": 1793419200, "sl": 0.07579, "entry_fee": 0.48418536000000006, "symbol": "DOGEUSD"}
+{"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1793392200, "exit_time": 1793421000, "entry": 95.118, "exit": 95.6051, "qty": 18.654848072562856, "reason": "reverse", "gross": 9.0868, "fees": 0.7116, "net": 8.3752}
+{"event": "entry", "side": "short", "entry": 95.6051, "qty": 10.40120933792572, "time": 1793421000, "sl": 96.389, "entry_fee": 0.19888173177466445, "symbol": "SOLUSD"}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1793398500, "exit_time": 1793413800, "entry": 3891.84, "exit": 3885.2927860000004, "qty": 0.6285175135668476, "reason": "stop", "gross": -4.115, "fees": 1.7102, "net": -5.8252}
