@@ -1,25 +1,15 @@
 {
- "balance": 650.5199,
+ "balance": 649.3958,
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793412900,
-   "price": 1.2568
+   "last_ts": 1793435400,
+   "price": 1.2451
   },
   "BTCUSD": {
-   "position": {
-    "side": "long",
-    "entry": 77522.0,
-    "qty": 0.021492847682119204,
-    "time": 1793407500,
-    "sl": 77220.0,
-    "target": 77824.0,
-    "or_high": 77409.0,
-    "or_low": 77220.0,
-    "entry_fee": 0.333233707602649
-   },
-   "last_ts": 1793412900,
-   "price": 77357.0
+   "position": null,
+   "last_ts": 1793435400,
+   "price": 77260.0
   },
   "ETHUSD": {
    "position": {
@@ -33,23 +23,13 @@
     "or_low": 2223.35,
     "entry_fee": 0.18809502438225142
    },
-   "last_ts": 1793412900,
-   "price": 2243.65
+   "last_ts": 1793435400,
+   "price": 2238.4
   },
   "DOGEUSD": {
-   "position": {
-    "side": "short",
-    "entry": 0.0761,
-    "qty": 17630.951351351574,
-    "time": 1793409300,
-    "sl": 0.07647,
-    "target": 0.07573,
-    "or_high": 0.07647,
-    "or_low": 0.07618,
-    "entry_fee": 0.268343079567571
-   },
-   "last_ts": 1793412900,
-   "price": 0.07592
+   "position": null,
+   "last_ts": 1793435400,
+   "price": 0.07499
   },
   "BNBUSD": {
    "position": {
@@ -63,23 +43,13 @@
     "or_low": 678.43,
     "entry_fee": 0.029468634931568732
    },
-   "last_ts": 1793412900,
-   "price": 703.8
+   "last_ts": 1793435400,
+   "price": 699.02
   },
   "SOLUSD": {
-   "position": {
-    "side": "long",
-    "entry": 96.748,
-    "qty": 20.171576673419604,
-    "time": 1793412900,
-    "sl": 96.458,
-    "target": 97.03800000000001,
-    "or_high": 96.728,
-    "or_low": 96.458,
-    "entry_fee": 0.39031194
-   },
-   "last_ts": 1793412900,
-   "price": 96.748
+   "position": null,
+   "last_ts": 1793435400,
+   "price": 95.308
   },
   "XAUTUSD": {
    "position": {
@@ -93,12 +63,12 @@
     "or_low": 3881.15,
     "entry_fee": 0.3557127753722135
    },
-   "last_ts": 1793412900,
-   "price": 3888.54
+   "last_ts": 1793435400,
+   "price": 3883.45
   }
  },
- "trades_today": 18,
- "daily_pnl": 7.612,
+ "trades_today": 20,
+ "daily_pnl": 6.4879,
  "day": "2026-10-31",
  "meta": {
   "name": "DayTrader ORB",
@@ -110,5 +80,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-10-31T08:14:34.402474+05:30"
+ "updated": "2026-10-31T14:26:50.426825+05:30"
 }
