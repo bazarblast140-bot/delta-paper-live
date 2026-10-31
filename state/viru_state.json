@@ -9,12 +9,12 @@
     "sl": 1.2557,
     "entry_fee": 0.43405079285105014
    },
-   "last_ts": 1793427300,
-   "price": 1.2482,
+   "last_ts": 1793450700,
+   "price": 1.2506,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -23,12 +23,12 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793427300,
-   "price": 77248.0,
+   "last_ts": 1793450700,
+   "price": 77509.5,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -36,13 +36,20 @@
    }
   },
   "ETHUSD": {
-   "position": null,
-   "last_ts": 1793427300,
-   "price": 2242.8,
+   "position": {
+    "side": "long",
+    "entry": 2246.25,
+    "qty": 1.0811694156928215,
+    "time": 1793441700,
+    "sl": 2241.6,
+    "entry_fee": 0.4857153600000001
+   },
+   "last_ts": 1793450700,
+   "price": 2251.4,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -51,19 +58,19 @@
   },
   "DOGEUSD": {
    "position": {
-    "side": "short",
-    "entry": 0.0756,
-    "qty": 32022.841269841272,
-    "time": 1793419200,
-    "sl": 0.07579,
-    "entry_fee": 0.48418536000000006
+    "side": "long",
+    "entry": 0.0755,
+    "qty": 32255.372185430464,
+    "time": 1793449800,
+    "sl": 0.07528,
+    "entry_fee": 0.48705612000000004
    },
-   "last_ts": 1793427300,
-   "price": 0.07558,
+   "last_ts": 1793450700,
+   "price": 0.07539,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -71,13 +78,20 @@
    }
   },
   "BNBUSD": {
-   "position": null,
-   "last_ts": 1793427300,
-   "price": 703.27,
+   "position": {
+    "side": "long",
+    "entry": 704.13,
+    "qty": 3.4585667419368584,
+    "time": 1793442600,
+    "sl": 702.34,
+    "entry_fee": 0.48705612000000004
+   },
+   "last_ts": 1793450700,
+   "price": 705.42,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -85,20 +99,13 @@
    }
   },
   "SOLUSD": {
-   "position": {
-    "side": "short",
-    "entry": 95.6051,
-    "qty": 10.40120933792572,
-    "time": 1793421000,
-    "sl": 96.389,
-    "entry_fee": 0.19888173177466445
-   },
-   "last_ts": 1793427300,
-   "price": 95.978,
+   "position": null,
+   "last_ts": 1793450700,
+   "price": 96.089,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -107,12 +114,12 @@
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1793427300,
-   "price": 3887.26,
+   "last_ts": 1793450700,
+   "price": 3885.75,
    "indicator": {
-    "hema_dir": -1,
+    "hema_dir": 1,
     "osc_dir": 1,
-    "agreement": 0,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -120,6 +127,6 @@
    }
   }
  },
- "balance": 809.5256,
- "updated": "2026-10-31T12:05:48.818053+05:30"
+ "balance": 800.1425,
+ "updated": "2026-10-31T18:35:33.502948+05:30"
 }

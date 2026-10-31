@@ -169,3 +169,10 @@
 {"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1793392200, "exit_time": 1793421000, "entry": 95.118, "exit": 95.6051, "qty": 18.654848072562856, "reason": "reverse", "gross": 9.0868, "fees": 0.7116, "net": 8.3752}
 {"event": "entry", "side": "short", "entry": 95.6051, "qty": 10.40120933792572, "time": 1793421000, "sl": 96.389, "entry_fee": 0.19888173177466445, "symbol": "SOLUSD"}
 {"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1793398500, "exit_time": 1793413800, "entry": 3891.84, "exit": 3885.2927860000004, "qty": 0.6285175135668476, "reason": "stop", "gross": -4.115, "fees": 1.7102, "net": -5.8252}
+{"event": "entry", "side": "long", "entry": 2246.25, "qty": 1.0811694156928215, "time": 1793441700, "sl": 2241.6, "entry_fee": 0.4857153600000001, "symbol": "ETHUSD"}
+{"event": "exit", "symbol": "DOGEUSD", "side": "short", "entry_time": 1793419200, "exit_time": 1793449800, "entry": 0.0756, "exit": 0.0755, "qty": 32022.841269841272, "reason": "reverse", "gross": 3.2023, "fees": 0.9677, "net": 2.2346}
+{"event": "entry", "side": "long", "entry": 0.0755, "qty": 32255.372185430464, "time": 1793449800, "sl": 0.07528, "entry_fee": 0.48705612000000004, "symbol": "DOGEUSD"}
+{"event": "entry", "side": "long", "entry": 704.13, "qty": 3.4585667419368584, "time": 1793442600, "sl": 702.34, "entry_fee": 0.48705612000000004, "symbol": "BNBUSD"}
+{"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1793421000, "exit_time": 1793449800, "entry": 95.6051, "exit": 96.4082778, "qty": 10.40120933792572, "reason": "stop", "gross": -8.354, "fees": 0.7003, "net": -9.0543}
+{"event": "entry", "side": "long", "entry": 3886.34, "qty": 0.6196363931102271, "time": 1793448900, "sl": 3885.7, "entry_fee": 0.48162354000000007, "symbol": "XAUTUSD"}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1793448900, "exit_time": 1793449800, "entry": 3886.34, "exit": 3884.92286, "qty": 0.6196363931102271, "reason": "stop", "gross": -0.8781, "fees": 1.6852, "net": -2.5634}
