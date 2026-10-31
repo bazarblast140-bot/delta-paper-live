@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-10-31 14:26 IST
+**Last update:** 2026-10-31 20:43 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| ETHUSD | long | 2,238 | 2,223.35 | 2,238.4 | 0.42023 | $0.17 |
-| BNBUSD | long | 709.41 | 678.43 | 699.02 | 0.207698 | $-2.16 |
-| XAUTUSD | long | 3,895.04 | 3,881.15 | 3,883.45 | 0.456623 | $-5.29 |
+| BNBUSD | long | 709.41 | 678.43 | 707.09 | 0.207698 | $-0.48 |
+| XAUTUSD | long | 3,895.04 | 3,881.15 | 3,885.32 | 0.456623 | $-4.44 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| ETHUSD | long | 10-31 01:15 | 10-31 18:00 | 2,238 | 2,252.65 | target_1R | $5.78 |
 | SOLUSD | long | 10-31 07:45 | 10-31 09:00 | 96.748 | 96.4387 | stop | $-7.60 |
 | DOGEUSD | short | 10-31 06:45 | 10-31 08:30 | 0.0761 | 0.07573 | target_1R | $5.99 |
 | BTCUSD | long | 10-31 06:15 | 10-31 09:00 | 77,522 | 77,204.6 | stop | $-7.99 |
@@ -237,11 +237,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $649.40 |
-| Realized P&L | $-350.60 |
-| Unrealized P&L | $-7.28 |
-| Total P&L | $-357.89 |
-| Closed trades | 215 |
+| Balance (realized) | $655.17 |
+| Realized P&L | $-344.83 |
+| Unrealized P&L | $-4.92 |
+| Total P&L | $-349.75 |
+| Closed trades | 216 |
 | Win rate | 46% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
