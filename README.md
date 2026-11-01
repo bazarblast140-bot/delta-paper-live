@@ -2,13 +2,14 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-11-01 07:25 IST
+**Last update:** 2026-11-01 14:19 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| ETHUSD | long | 2,251.4 | 2,246.12 | 2,261.2 | 0.546778 | $5.36 |
+| BTCUSD | long | 77,875.5 | 77,643.7 | 77,930 | 0.0255925 | $1.39 |
+| ETHUSD | long | 2,251.4 | 2,254.59 | 2,269.15 | 0.546778 | $9.71 |
 
 ## Closed trades
 
@@ -74,8 +75,8 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Starting balance | $1,000.00 |
 | Balance (realized) | $829.93 |
 | Realized P&L | $-170.07 |
-| Unrealized P&L | $5.36 |
-| Total P&L | $-164.71 |
+| Unrealized P&L | $11.10 |
+| Total P&L | $-158.97 |
 | Closed trades | 52 |
 | Win rate | 27% |
 
