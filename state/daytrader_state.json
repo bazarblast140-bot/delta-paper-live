@@ -3,23 +3,23 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793519100,
-   "price": 1.2548
+   "last_ts": 1793544300,
+   "price": 1.2544
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793519100,
-   "price": 77930.0
+   "last_ts": 1793544300,
+   "price": 78015.0
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793519100,
-   "price": 2269.15
+   "last_ts": 1793544300,
+   "price": 2270.65
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793519100,
-   "price": 0.0759
+   "last_ts": 1793544300,
+   "price": 0.07584
   },
   "BNBUSD": {
    "position": {
@@ -33,13 +33,13 @@
     "or_low": 678.43,
     "entry_fee": 0.029468634931568732
    },
-   "last_ts": 1793519100,
-   "price": 706.09
+   "last_ts": 1793544300,
+   "price": 716.69
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793519100,
-   "price": 95.557
+   "last_ts": 1793544300,
+   "price": 95.017
   },
   "XAUTUSD": {
    "position": {
@@ -53,8 +53,8 @@
     "or_low": 3881.15,
     "entry_fee": 0.3557127753722135
    },
-   "last_ts": 1793519100,
-   "price": 3886.43
+   "last_ts": 1793544300,
+   "price": 3883.08
   }
  },
  "trades_today": 20,
@@ -70,5 +70,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-11-01T13:33:45.480874+05:30"
+ "updated": "2026-11-01T20:43:45.314535+05:30"
 }
