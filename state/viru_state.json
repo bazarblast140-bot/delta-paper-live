@@ -2,8 +2,8 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793548800,
-   "price": 1.2525,
+   "last_ts": 1793564100,
+   "price": 1.2502,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -15,9 +15,16 @@
    }
   },
   "BTCUSD": {
-   "position": null,
-   "last_ts": 1793548800,
-   "price": 77972.0,
+   "position": {
+    "side": "short",
+    "entry": 77853.0,
+    "qty": 0.02771825363184463,
+    "time": 1793558700,
+    "sl": 77961.0,
+    "entry_fee": 0.43158984
+   },
+   "last_ts": 1793564100,
+   "price": 77771.0,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -30,12 +37,12 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793548800,
-   "price": 2268.7,
+   "last_ts": 1793564100,
+   "price": 2257.55,
    "indicator": {
-    "hema_dir": 1,
+    "hema_dir": -1,
     "osc_dir": -1,
-    "agreement": 0,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -44,8 +51,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793548800,
-   "price": 0.07565,
+   "last_ts": 1793564100,
+   "price": 0.07517,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -58,8 +65,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793548800,
-   "price": 711.3,
+   "last_ts": 1793564100,
+   "price": 708.15,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -79,8 +86,8 @@
     "sl": 95.658,
     "entry_fee": 0.43305720000000003
    },
-   "last_ts": 1793548800,
-   "price": 94.808,
+   "last_ts": 1793564100,
+   "price": 94.107,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -92,13 +99,20 @@
    }
   },
   "XAUTUSD": {
-   "position": null,
-   "last_ts": 1793548800,
-   "price": 3882.13,
+   "position": {
+    "side": "short",
+    "entry": 3880.0,
+    "qty": 0.5543403865979382,
+    "time": 1793562300,
+    "sl": 3881.07,
+    "entry_fee": 0.4301681400000001
+   },
+   "last_ts": 1793564100,
+   "price": 3880.29,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": 1,
-    "agreement": 0,
+    "osc_dir": -1,
+    "agreement": -1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -106,6 +120,6 @@
    }
   }
  },
- "balance": 719.3164,
- "updated": "2026-11-01T21:57:01.693822+05:30"
+ "balance": 716.9469,
+ "updated": "2026-11-02T02:11:59.864962+05:30"
 }

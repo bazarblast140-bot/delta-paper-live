@@ -215,3 +215,7 @@
 {"event": "entry", "side": "short", "entry": 95.388, "qty": 22.69977355642219, "time": 1793529000, "sl": 95.658, "entry_fee": 0.43305720000000003, "symbol": "SOLUSD"}
 {"event": "entry", "side": "short", "entry": 3883.29, "qty": 0.5575905997234304, "time": 1793525400, "sl": 3884.18, "entry_fee": 0.43305720000000003, "symbol": "XAUTUSD"}
 {"event": "exit", "symbol": "XAUTUSD", "side": "short", "entry_time": 1793525400, "exit_time": 1793526300, "entry": 3883.29, "exit": 3884.956836, "qty": 0.5575905997234304, "reason": "stop", "gross": -0.9294, "fees": 1.5162, "net": -2.4456}
+{"event": "entry", "side": "short", "entry": 77853.0, "qty": 0.02771825363184463, "time": 1793558700, "sl": 77961.0, "entry_fee": 0.43158984, "symbol": "BTCUSD"}
+{"event": "entry", "side": "long", "entry": 3883.8, "qty": 0.555628302178279, "time": 1793552400, "sl": 3883.03, "entry_fee": 0.43158984, "symbol": "XAUTUSD"}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1793552400, "exit_time": 1793559600, "entry": 3883.8, "exit": 3882.2533940000003, "qty": 0.555628302178279, "reason": "stop", "gross": -0.8593, "fees": 1.5101, "net": -2.3695}
+{"event": "entry", "side": "short", "entry": 3880.0, "qty": 0.5543403865979382, "time": 1793562300, "sl": 3881.07, "entry_fee": 0.4301681400000001, "symbol": "XAUTUSD"}
