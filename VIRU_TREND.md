@@ -2,20 +2,21 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-11-02 02:11 IST
+**Last update:** 2026-11-02 05:24 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| BTCUSD | short | 77,853 | 77,961 | 77,771 | 0.0277183 | $2.27 |
-| SOLUSD | short | 95.388 | 95.658 | 94.107 | 22.6998 | $29.08 |
-| XAUTUSD | short | 3,880 | 3,881.07 | 3,880.29 | 0.55434 | $-0.16 |
+| SOLUSD | short | 95.388 | 95.658 | 94.518 | 22.6998 | $19.75 |
+| XAUTUSD | long | 3,885.1 | 3,882.35 | 3,901.38 | 0.547846 | $8.92 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| XAUTUSD | short | 11-02 01:15 | 11-02 02:00 | 3,880 | 3,881.85 | stop | $-2.53 |
+| BTCUSD | short | 11-02 00:15 | 11-02 04:30 | 77,853 | 77,976.6 | stop | $-4.94 |
 | XAUTUSD | long | 11-01 22:30 | 11-02 00:30 | 3,883.8 | 3,882.25 | stop | $-2.37 |
 | XAUTUSD | short | 11-01 15:00 | 11-01 15:15 | 3,883.29 | 3,884.96 | stop | $-2.45 |
 | BNBUSD | long | 11-01 19:30 | 11-01 20:45 | 715.99 | 714.367 | stop | $-6.48 |
@@ -131,11 +132,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $716.95 |
-| Realized P&L | $-283.05 |
-| Unrealized P&L | $31.19 |
-| Total P&L | $-251.86 |
-| Closed trades | 109 |
-| Win rate | 17% |
+| Balance (realized) | $709.48 |
+| Realized P&L | $-290.52 |
+| Unrealized P&L | $28.67 |
+| Total P&L | $-261.85 |
+| Closed trades | 111 |
+| Win rate | 16% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
