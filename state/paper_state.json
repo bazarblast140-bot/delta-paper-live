@@ -2,56 +2,64 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793516400,
-   "price": 1.2548
+   "last_ts": 1793541600,
+   "price": 1.2544
   },
   "BTCUSD": {
-   "position": {
-    "side": "long",
-    "entry": 77875.5,
-    "qty": 0.025592505726872248,
-    "time": 1793509200,
-    "atr": 162.14285714285714,
-    "sl": 77643.71428571429,
-    "entry_fee": 0.3986058359466079
-   },
-   "last_ts": 1793516400,
-   "price": 77930.0
+   "position": null,
+   "last_ts": 1793541600,
+   "price": 78015.0
   },
   "ETHUSD": {
-   "position": {
-    "side": "long",
-    "entry": 2251.4,
-    "qty": 0.5467777931034434,
-    "time": 1793448000,
-    "atr": 7.250000000000065,
-    "sl": 2254.592857142857,
-    "entry_fee": 0.2462031046786185
-   },
-   "last_ts": 1793516400,
-   "price": 2269.15
+   "position": null,
+   "last_ts": 1793541600,
+   "price": 2270.65
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793516400,
-   "price": 0.0759
+   "last_ts": 1793541600,
+   "price": 0.07584
   },
   "BNBUSD": {
-   "position": null,
-   "last_ts": 1793516400,
-   "price": 706.09
+   "position": {
+    "side": "long",
+    "entry": 714.6,
+    "qty": 1.5988913461538472,
+    "time": 1793520000,
+    "atr": 2.5999999999999983,
+    "sl": 710.0200000000001,
+    "entry_fee": 0.22851355119230785
+   },
+   "last_ts": 1793541600,
+   "price": 716.69
   },
   "SOLUSD": {
-   "position": null,
-   "last_ts": 1793516400,
-   "price": 95.557
+   "position": {
+    "side": "short",
+    "entry": 94.88,
+    "qty": 8.804920649329043,
+    "time": 1793534400,
+    "atr": 0.472135714285714,
+    "sl": 95.82427142857142,
+    "entry_fee": 0.16708217424166794
+   },
+   "last_ts": 1793541600,
+   "price": 95.017
   },
   "XAUTUSD": {
-   "position": null,
-   "last_ts": 1793516400,
-   "price": 3886.43
+   "position": {
+    "side": "short",
+    "entry": 3882.12,
+    "qty": 0.6425021637661896,
+    "time": 1793538000,
+    "atr": 1.8378571428571766,
+    "sl": 3885.7957142857144,
+    "entry_fee": 0.4988541
+   },
+   "last_ts": 1793541600,
+   "price": 3883.08
   }
  },
- "balance": 829.9284,
- "updated": "2026-11-01T14:19:48.873926+05:30"
+ "balance": 831.4235,
+ "updated": "2026-11-01T21:21:02.440258+05:30"
 }
