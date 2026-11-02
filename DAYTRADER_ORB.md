@@ -2,19 +2,46 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-11-02 15:30 IST
+**Last update:** 2026-11-03 01:45 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.2596 | 1.2479 | 1.2522 | 479.385 | $-3.55 |
-| BNBUSD | long | 709.41 | 678.43 | 707.89 | 0.207698 | $-0.32 |
+| BTCUSD | short | 76,988.5 | 77,478.5 | 76,897.5 | 0.0107389 | $0.98 |
+| ETHUSD | short | 2,254.1 | 2,272.2 | 2,250.05 | 0.288957 | $1.17 |
+| DOGEUSD | short | 0.07399 | 0.07506 | 0.07391 | 4,872.79 | $0.39 |
+| BNBUSD | long | 709.41 | 678.43 | 697.31 | 0.207698 | $-2.51 |
+| XAUTUSD | long | 3,942.14 | 3,898.77 | 3,935.56 | 0.120289 | $-0.79 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| XAUTUSD | long | 11-02 16:30 | 11-02 18:45 | 3,903.51 | 3,909.6 | target_1R | $1.81 |
+| XAUTUSD | short | 11-02 15:45 | 11-02 16:00 | 3,896.27 | 3,901.23 | stop | $-3.10 |
+| SOLUSD | short | 11-03 01:00 | 11-03 01:30 | 91.196 | 91.9544 | stop | $-5.88 |
+| SOLUSD | short | 11-03 00:00 | 11-03 00:45 | 91.946 | 91.485 | target_1R | $4.82 |
+| SOLUSD | short | 11-02 23:00 | 11-02 23:15 | 92.597 | 91.757 | target_1R | $4.96 |
+| SOLUSD | short | 11-02 22:30 | 11-02 22:45 | 93.287 | 92.867 | target_1R | $4.69 |
+| SOLUSD | long | 11-02 19:00 | 11-02 21:15 | 94.777 | 93.6863 | stop | $-5.61 |
+| SOLUSD | short | 11-02 18:00 | 11-02 18:30 | 94.318 | 93.968 | target_1R | $4.60 |
+| SOLUSD | short | 11-02 15:30 | 11-02 17:45 | 94.098 | 94.6869 | stop | $-5.99 |
+| DOGEUSD | short | 11-02 22:30 | 11-02 22:45 | 0.07491 | 0.07462 | target_1R | $4.63 |
+| DOGEUSD | long | 11-02 19:00 | 11-02 21:15 | 0.07577 | 0.074935 | stop | $-5.65 |
+| DOGEUSD | short | 11-02 18:00 | 11-02 18:45 | 0.07545 | 0.07507 | target_1R | $4.77 |
+| DOGEUSD | short | 11-02 15:30 | 11-02 17:30 | 0.07539 | 0.0755951 | stop | $-5.37 |
+| ETHUSD | short | 11-02 22:30 | 11-02 22:45 | 2,266.3 | 2,258.75 | target_1R | $4.56 |
+| ETHUSD | long | 11-02 19:00 | 11-02 21:15 | 2,296.5 | 2,276.94 | stop | $-5.81 |
+| ETHUSD | short | 11-02 18:00 | 11-02 18:45 | 2,287 | 2,278.35 | target_1R | $4.65 |
+| ETHUSD | short | 11-02 15:30 | 11-02 17:45 | 2,286.35 | 2,294.96 | stop | $-6.59 |
+| BTCUSD | long | 11-02 22:00 | 11-02 22:45 | 77,497.5 | 77,226.1 | stop | $-6.72 |
+| BTCUSD | long | 11-02 19:00 | 11-02 21:15 | 78,129.5 | 77,564 | stop | $-6.08 |
+| BTCUSD | long | 11-02 17:30 | 11-02 18:00 | 78,015 | 77,740.4 | stop | $-6.91 |
+| BTCUSD | short | 11-02 15:30 | 11-02 17:15 | 77,962 | 77,759.5 | target_1R | $3.58 |
+| XRPUSD | long | 11-03 00:45 | 11-03 01:30 | 1.2467 | 1.253 | target_1R | $4.95 |
+| XRPUSD | short | 11-03 00:00 | 11-03 00:15 | 1.2379 | 1.24395 | stop | $-6.49 |
+| XRPUSD | long | 11-02 06:45 | 11-02 18:45 | 1.2596 | 1.24765 | stop | $-6.15 |
 | ETHUSD | long | 11-02 06:45 | 11-02 08:45 | 2,291.7 | 2,312.7 | target_1R | $5.39 |
 | XAUTUSD | long | 11-02 03:30 | 11-02 04:30 | 3,885.1 | 3,887.85 | target_1R | $0.52 |
 | SOLUSD | short | 11-02 00:30 | 11-02 05:30 | 93.876 | 94.7069 | stop | $-6.70 |
@@ -298,11 +325,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $550.01 |
-| Realized P&L | $-449.99 |
-| Unrealized P&L | $-3.86 |
-| Total P&L | $-453.85 |
-| Closed trades | 277 |
+| Balance (realized) | $521.69 |
+| Realized P&L | $-478.31 |
+| Unrealized P&L | $-0.77 |
+| Total P&L | $-479.07 |
+| Closed trades | 301 |
 | Win rate | 46% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
