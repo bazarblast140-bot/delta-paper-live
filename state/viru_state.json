@@ -2,12 +2,12 @@
  "symbols": {
   "XRPUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 1.2554,
+   "last_ts": 1793655000,
+   "price": 1.2556,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -16,8 +16,8 @@
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 78015.0,
+   "last_ts": 1793655000,
+   "price": 76953.5,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -30,8 +30,8 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 2293.15,
+   "last_ts": 1793655000,
+   "price": 2257.8,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -44,12 +44,12 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 0.07575,
+   "last_ts": 1793655000,
+   "price": 0.07436,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "osc_dir": 1,
+    "agreement": 0,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
@@ -58,8 +58,8 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 706.47,
+   "last_ts": 1793655000,
+   "price": 699.15,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -72,8 +72,8 @@
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793620800,
-   "price": 94.547,
+   "last_ts": 1793655000,
+   "price": 92.137,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -87,14 +87,14 @@
   "XAUTUSD": {
    "position": {
     "side": "short",
-    "entry": 3899.98,
-    "qty": 0.5140244821768316,
-    "time": 1793606400,
-    "sl": 3909.16,
-    "entry_fee": 0.40093703999999997
+    "entry": 3935.54,
+    "qty": 0.5044049101266916,
+    "time": 1793647800,
+    "sl": 3947.52,
+    "entry_fee": 0.39702114000000005
    },
-   "last_ts": 1793620800,
-   "price": 3906.37,
+   "last_ts": 1793655000,
+   "price": 3942.14,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -106,6 +106,6 @@
    }
   }
  },
- "balance": 668.2284,
- "updated": "2026-11-02T17:58:52.369742+05:30"
+ "balance": 661.7019,
+ "updated": "2026-11-03T03:22:32.459831+05:30"
 }
