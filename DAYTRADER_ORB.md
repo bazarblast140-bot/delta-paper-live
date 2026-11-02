@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-11-02 08:03 IST
+**Last update:** 2026-11-02 15:30 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.2596 | 1.2479 | 1.2573 | 479.385 | $-1.10 |
-| ETHUSD | long | 2,291.7 | 2,270.7 | 2,296.45 | 0.268642 | $1.28 |
-| BNBUSD | long | 709.41 | 678.43 | 714.22 | 0.207698 | $1.00 |
+| XRPUSD | long | 1.2596 | 1.2479 | 1.2522 | 479.385 | $-3.55 |
+| BNBUSD | long | 709.41 | 678.43 | 707.89 | 0.207698 | $-0.32 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| ETHUSD | long | 11-02 06:45 | 11-02 08:45 | 2,291.7 | 2,312.7 | target_1R | $5.39 |
 | XAUTUSD | long | 11-02 03:30 | 11-02 04:30 | 3,885.1 | 3,887.85 | target_1R | $0.52 |
 | SOLUSD | short | 11-02 00:30 | 11-02 05:30 | 93.876 | 94.7069 | stop | $-6.70 |
 | DOGEUSD | long | 11-02 05:00 | 11-02 05:45 | 0.0756 | 0.0752949 | stop | $-6.88 |
@@ -298,11 +298,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $544.62 |
-| Realized P&L | $-455.38 |
-| Unrealized P&L | $1.17 |
-| Total P&L | $-454.21 |
-| Closed trades | 276 |
+| Balance (realized) | $550.01 |
+| Realized P&L | $-449.99 |
+| Unrealized P&L | $-3.86 |
+| Total P&L | $-453.85 |
+| Closed trades | 277 |
 | Win rate | 46% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
