@@ -2,21 +2,24 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-11-03 13:08 IST
+**Last update:** 2026-11-03 21:24 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| BTCUSD | short | 77,482.5 | 77,382 | 76,555 | 0.0108943 | $10.10 |
-| DOGEUSD | short | 0.07417 | 0.07494 | 0.07374 | 6,404.2 | $2.75 |
-| BNBUSD | short | 704.56 | 698.656 | 692.21 | 1.22047 | $15.07 |
-| SOLUSD | short | 92.207 | 93.3116 | 91.545 | 4.27152 | $2.83 |
+| XRPUSD | long | 1.2831 | 1.27114 | 1.2794 | 527.584 | $-1.95 |
+| ETHUSD | long | 2,282.35 | 2,257.78 | 2,286.85 | 0.31514 | $1.42 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| XAUTUSD | short | 11-03 13:30 | 11-03 17:30 | 3,897.24 | 3,920.96 | stop | $-9.19 |
+| SOLUSD | short | 11-02 22:30 | 11-03 17:30 | 92.207 | 93.3302 | stop | $-5.08 |
+| BNBUSD | short | 11-02 16:30 | 11-03 15:30 | 704.56 | 698.796 | stop | $6.44 |
+| DOGEUSD | short | 11-02 22:30 | 11-03 15:30 | 0.07417 | 0.0745 | mid_exit | $-2.30 |
+| BTCUSD | short | 11-02 20:30 | 11-03 17:30 | 77,482.5 | 77,396.3 | stop | $0.35 |
 | XAUTUSD | long | 11-02 18:30 | 11-03 00:30 | 3,935.92 | 3,930.61 | stop | $-2.20 |
 | XRPUSD | short | 11-02 22:30 | 11-03 00:30 | 1.2427 | 1.2513 | mid_exit | $-4.16 |
 | XAUTUSD | long | 11-02 04:30 | 11-02 06:30 | 3,899.49 | 3,893.67 | stop | $-5.37 |
@@ -86,11 +89,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $797.41 |
-| Realized P&L | $-202.59 |
-| Unrealized P&L | $30.76 |
-| Total P&L | $-171.84 |
-| Closed trades | 63 |
-| Win rate | 24% |
+| Balance (realized) | $787.62 |
+| Realized P&L | $-212.38 |
+| Unrealized P&L | $-0.53 |
+| Total P&L | $-212.91 |
+| Closed trades | 68 |
+| Win rate | 25% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
