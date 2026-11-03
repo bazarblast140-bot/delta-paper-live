@@ -237,3 +237,10 @@
 {"event": "entry", "side": "short", "entry": 3899.98, "qty": 0.5140244821768316, "time": 1793606400, "sl": 3909.16, "entry_fee": 0.40093703999999997, "symbol": "XAUTUSD"}
 {"event": "exit", "symbol": "XAUTUSD", "side": "short", "entry_time": 1793606400, "exit_time": 1793625300, "entry": 3899.98, "exit": 3909.941832, "qty": 0.5140244821768316, "reason": "stop", "gross": -5.1206, "fees": 1.4058, "net": -6.5265}
 {"event": "entry", "side": "short", "entry": 3935.54, "qty": 0.5044049101266916, "time": 1793647800, "sl": 3947.52, "entry_fee": 0.39702114000000005, "symbol": "XAUTUSD"}
+{"event": "entry", "side": "long", "entry": 77104.0, "qty": 0.02036005846153846, "time": 1793666700, "sl": 76779.0, "entry_fee": 0.3139683895236923, "symbol": "BTCUSD"}
+{"event": "exit", "symbol": "BTCUSD", "side": "long", "entry_time": 1793666700, "exit_time": 1793673900, "entry": 77104.0, "exit": 76763.6442, "qty": 0.02036005846153846, "reason": "stop", "gross": -6.9297, "fees": 1.0954, "net": -8.0251}
+{"event": "entry", "side": "long", "entry": 700.16, "qty": 2.800831809872029, "time": 1793657700, "sl": 699.03, "entry_fee": 0.39220608, "symbol": "BNBUSD"}
+{"event": "exit", "symbol": "BNBUSD", "side": "long", "entry_time": 1793657700, "exit_time": 1793658600, "entry": 700.16, "exit": 697.950382, "qty": 2.800831809872029, "reason": "stop", "gross": -6.1888, "fees": 1.3696, "net": -7.5584}
+{"event": "entry", "side": "long", "entry": 92.117, "qty": 21.042317921773396, "time": 1793664000, "sl": 91.915, "entry_fee": 0.38767104, "symbol": "SOLUSD"}
+{"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1793664000, "exit_time": 1793673900, "entry": 92.117, "exit": 91.896617, "qty": 21.042317921773396, "reason": "stop", "gross": -4.6374, "fees": 1.3545, "net": -5.9919}
+{"event": "exit", "symbol": "XAUTUSD", "side": "short", "entry_time": 1793647800, "exit_time": 1793664900, "entry": 3935.54, "exit": 3948.309504, "qty": 0.5044049101266916, "reason": "stop", "gross": -6.441, "fees": 1.3928, "net": -7.8338}
