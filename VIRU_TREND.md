@@ -2,19 +2,21 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-11-03 16:41 IST
+**Last update:** 2026-11-03 23:56 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| BTCUSD | long | 77,043 | 76,855 | 77,102.5 | 0.0243217 | $1.45 |
-| BNBUSD | long | 696.56 | 695.28 | 698.5 | 2.65913 | $5.16 |
+| BTCUSD | long | 77,043 | 76,855 | 77,672 | 0.0243217 | $15.30 |
+| XAUTUSD | long | 3,933.64 | 3,905.74 | 3,934.34 | 0.216794 | $0.15 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| BNBUSD | long | 11-03 21:15 | 11-03 21:45 | 701.61 | 698.65 | stop | $-7.49 |
+| BNBUSD | long | 11-03 15:00 | 11-03 19:30 | 696.56 | 695.141 | stop | $-5.07 |
 | DOGEUSD | short | 11-03 11:30 | 11-03 12:45 | 0.07368 | 0.0741348 | stop | $-7.19 |
 | BTCUSD | short | 11-03 11:30 | 11-03 12:00 | 76,419.5 | 76,754.8 | stop | $-7.69 |
 | XAUTUSD | short | 11-03 01:00 | 11-03 05:45 | 3,935.54 | 3,948.31 | stop | $-7.83 |
@@ -146,11 +148,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $617.41 |
-| Realized P&L | $-382.59 |
-| Unrealized P&L | $6.61 |
-| Total P&L | $-375.98 |
-| Closed trades | 125 |
+| Balance (realized) | $604.86 |
+| Realized P&L | $-395.14 |
+| Unrealized P&L | $15.45 |
+| Total P&L | $-379.69 |
+| Closed trades | 127 |
 | Win rate | 15% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
