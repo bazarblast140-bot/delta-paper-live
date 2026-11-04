@@ -2,13 +2,13 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-11-04 15:27 IST
+**Last update:** 2026-11-04 23:23 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| BNBUSD | long | 709.41 | 678.43 | 701.57 | 0.207698 | $-1.63 |
+| BNBUSD | long | 709.41 | 678.43 | 715.7 | 0.207698 | $1.31 |
 
 ## Closed trades
 
@@ -387,8 +387,8 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Starting balance | $1,000.00 |
 | Balance (realized) | $465.09 |
 | Realized P&L | $-534.91 |
-| Unrealized P&L | $-1.63 |
-| Total P&L | $-536.54 |
+| Unrealized P&L | $1.31 |
+| Total P&L | $-533.60 |
 | Closed trades | 365 |
 | Win rate | 46% |
 
