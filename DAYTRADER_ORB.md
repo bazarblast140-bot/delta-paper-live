@@ -2,21 +2,21 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-11-04 08:15 IST
+**Last update:** 2026-11-04 15:27 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | short | 1.2579 | 1.2764 | 1.2551 | 249.294 | $0.70 |
-| BTCUSD | short | 76,755.5 | 77,192 | 76,642.5 | 0.0105051 | $1.19 |
-| DOGEUSD | short | 0.07392 | 0.07438 | 0.07369 | 9,792.07 | $2.25 |
-| BNBUSD | long | 709.41 | 678.43 | 690.13 | 0.207698 | $-4.00 |
+| BNBUSD | long | 709.41 | 678.43 | 701.57 | 0.207698 | $-1.63 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| DOGEUSD | short | 11-04 07:00 | 11-04 08:15 | 0.07392 | 0.07346 | target_1R | $4.22 |
+| BTCUSD | short | 11-04 07:45 | 11-04 08:15 | 76,755.5 | 76,319 | target_1R | $4.26 |
+| XRPUSD | short | 11-04 06:00 | 11-04 11:00 | 1.2579 | 1.27666 | stop | $-4.90 |
 | XAUTUSD | long | 11-04 06:30 | 11-04 06:45 | 3,942.07 | 3,959.13 | target_1R | $4.15 |
 | XAUTUSD | short | 11-04 05:45 | 11-04 06:00 | 3,935.5 | 3,928.98 | target_1R | $1.72 |
 | XAUTUSD | long | 11-04 03:00 | 11-04 05:00 | 3,929.53 | 3,936.25 | target_1R | $1.80 |
@@ -385,11 +385,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $461.51 |
-| Realized P&L | $-538.49 |
-| Unrealized P&L | $0.13 |
-| Total P&L | $-538.36 |
-| Closed trades | 362 |
+| Balance (realized) | $465.09 |
+| Realized P&L | $-534.91 |
+| Unrealized P&L | $-1.63 |
+| Total P&L | $-536.54 |
+| Closed trades | 365 |
 | Win rate | 46% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._

@@ -1,55 +1,25 @@
 {
- "balance": 461.511,
+ "balance": 465.0932,
  "symbols": {
   "XRPUSD": {
-   "position": {
-    "side": "short",
-    "entry": 1.2579,
-    "qty": 249.29356756756812,
-    "time": 1793752200,
-    "sl": 1.2764,
-    "target": 1.2394,
-    "or_high": 1.2764,
-    "or_low": 1.259,
-    "entry_fee": 0.0627172757286488
-   },
-   "last_ts": 1793759400,
-   "price": 1.2551
+   "position": null,
+   "last_ts": 1793784600,
+   "price": 1.2826
   },
   "BTCUSD": {
-   "position": {
-    "side": "short",
-    "entry": 76755.5,
-    "qty": 0.010505117983963344,
-    "time": 1793758500,
-    "sl": 77192.0,
-    "target": 76319.0,
-    "or_high": 77192.0,
-    "or_low": 76855.0,
-    "entry_fee": 0.1612651166836197
-   },
-   "last_ts": 1793759400,
-   "price": 76642.5
+   "position": null,
+   "last_ts": 1793784600,
+   "price": 78410.5
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793759400,
-   "price": 2255.1
+   "last_ts": 1793784600,
+   "price": 2319.5
   },
   "DOGEUSD": {
-   "position": {
-    "side": "short",
-    "entry": 0.07392,
-    "qty": 9792.067391304303,
-    "time": 1793755800,
-    "sl": 0.07438,
-    "target": 0.07346,
-    "or_high": 0.07438,
-    "or_low": 0.07409,
-    "entry_fee": 0.14476592431304283
-   },
-   "last_ts": 1793759400,
-   "price": 0.07369
+   "position": null,
+   "last_ts": 1793784600,
+   "price": 0.07518
   },
   "BNBUSD": {
    "position": {
@@ -63,22 +33,22 @@
     "or_low": 678.43,
     "entry_fee": 0.029468634931568732
    },
-   "last_ts": 1793759400,
-   "price": 690.13
+   "last_ts": 1793784600,
+   "price": 701.57
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793759400,
-   "price": 91.5025
+   "last_ts": 1793784600,
+   "price": 92.966
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1793759400,
-   "price": 3938.63
+   "last_ts": 1793784600,
+   "price": 4036.2
   }
  },
  "trades_today": 20,
- "daily_pnl": -1.7844,
+ "daily_pnl": 1.7978,
  "day": "2026-11-04",
  "meta": {
   "name": "DayTrader ORB",
@@ -90,5 +60,5 @@
   "target": "1R",
   "stop": "or-low/or-high"
  },
- "updated": "2026-11-04T08:15:11.845664+05:30"
+ "updated": "2026-11-04T15:27:18.521060+05:30"
 }
