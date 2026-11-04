@@ -2,22 +2,22 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-11-05 00:15 IST
+**Last update:** 2026-11-05 05:26 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| XRPUSD | long | 1.2721 | 1.2593 | 1.309 | 459.119 | $16.94 |
-| ETHUSD | long | 2,296.6 | 2,266.45 | 2,420.85 | 0.192652 | $23.94 |
-| DOGEUSD | long | 0.07485 | 0.07427 | 0.07682 | 10,113.3 | $19.92 |
-| SOLUSD | long | 97.799 | 94.467 | 95.378 | 1.7196 | $-4.16 |
-| XAUTUSD | long | 3,933.64 | 3,905.74 | 4,050.85 | 0.216794 | $25.41 |
+| XRPUSD | long | 1.2721 | 1.2593 | 1.3094 | 459.119 | $17.13 |
+| ETHUSD | long | 2,296.6 | 2,266.45 | 2,430.05 | 0.192652 | $25.71 |
+| DOGEUSD | long | 0.07485 | 0.07427 | 0.07745 | 10,113.3 | $26.29 |
+| XAUTUSD | long | 3,933.64 | 3,905.74 | 4,052.99 | 0.216794 | $25.87 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | long | 11-04 20:30 | 11-05 01:30 | 97.799 | 94.4481 | stop | $-5.88 |
 | SOLUSD | short | 11-04 18:15 | 11-04 20:00 | 92.627 | 93.1556 | stop | $-6.75 |
 | BNBUSD | short | 11-04 06:00 | 11-04 11:00 | 693.59 | 697.519 | stop | $-6.85 |
 | DOGEUSD | short | 11-04 05:30 | 11-04 11:45 | 0.07518 | 0.07485 | reverse | $5.72 |
@@ -160,11 +160,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $572.97 |
-| Realized P&L | $-427.03 |
-| Unrealized P&L | $82.05 |
-| Total P&L | $-344.98 |
-| Closed trades | 136 |
+| Balance (realized) | $567.09 |
+| Realized P&L | $-432.91 |
+| Unrealized P&L | $95.00 |
+| Total P&L | $-337.90 |
+| Closed trades | 137 |
 | Win rate | 15% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
