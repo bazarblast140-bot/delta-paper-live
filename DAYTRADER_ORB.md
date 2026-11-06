@@ -2,23 +2,34 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Adapted from day-trader-delta ORB skills (scanner/entry/exit/risk/budget). Entry on fresh close break of prior OR bar high/low; SL = OR low (long) / OR high (short); target = 1R. Separate virtual $1,000, 1% risk, max $15/trade, daily loss cap $50 / 20 trades, notional cap 3×, same fees as Donchian/Viru. **Not Viru. Not Donchian.** Runs every 15 min (at :02/:17/:32/:47 UTC) via GitHub Actions.
 
-**Last update:** 2026-11-06 00:31 IST
+**Last update:** 2026-11-06 05:36 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| BTCUSD | short | 76,398.5 | 78,266 | 76,067.5 | 0.00238037 | $0.79 |
-| ETHUSD | short | 2,274.35 | 2,342.9 | 2,250.85 | 0.0653362 | $1.54 |
-| DOGEUSD | long | 0.07188 | 0.07118 | 0.07204 | 6,624.76 | $1.06 |
-| BNBUSD | long | 709.41 | 678.43 | 692.39 | 0.207698 | $-3.54 |
-| SOLUSD | short | 90.605 | 94.017 | 89.6228 | 1.37975 | $1.36 |
-| XAUTUSD | short | 4,100.37 | 4,116.26 | 4,095.67 | 0.290697 | $1.37 |
+| XRPUSD | short | 1.2076 | 1.213 | 1.2076 | 854.101 | $-0.00 |
+| BTCUSD | short | 76,398.5 | 78,266 | 76,050.5 | 0.00238037 | $0.83 |
+| ETHUSD | long | 2,238.5 | 2,211.25 | 2,236.95 | 0.170875 | $-0.26 |
+| DOGEUSD | long | 0.07123 | 0.07093 | 0.07123 | 15,574.1 | $0.00 |
+| BNBUSD | long | 709.41 | 678.43 | 689.63 | 0.207698 | $-4.11 |
+| SOLUSD | short | 90.605 | 94.017 | 89.355 | 1.37975 | $1.72 |
+| XAUTUSD | long | 4,086.62 | 4,075.24 | 4,077.36 | 0.343734 | $-3.18 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| XAUTUSD | long | 11-06 03:30 | 11-06 04:30 | 4,081.76 | 4,075.58 | stop | $-3.13 |
+| XAUTUSD | short | 11-05 22:45 | 11-06 02:30 | 4,100.37 | 4,084.48 | target_1R | $4.14 |
+| DOGEUSD | short | 11-06 04:15 | 11-06 04:30 | 0.07157 | 0.07133 | target_1R | $4.08 |
+| DOGEUSD | long | 11-06 03:00 | 11-06 03:45 | 0.07236 | 0.0717656 | stop | $-5.21 |
+| DOGEUSD | long | 11-06 02:00 | 11-06 02:30 | 0.0729 | 0.0722855 | stop | $-5.25 |
+| DOGEUSD | short | 11-06 01:30 | 11-06 01:45 | 0.07257 | 0.07236 | target_1R | $3.52 |
+| DOGEUSD | long | 11-05 23:45 | 11-06 01:00 | 0.07188 | 0.07258 | target_1R | $4.45 |
+| ETHUSD | short | 11-05 20:45 | 11-06 04:30 | 2,274.35 | 2,205.8 | target_1R | $4.42 |
+| XRPUSD | short | 11-06 02:30 | 11-06 04:30 | 1.2246 | 1.2085 | target_1R | $4.43 |
+| XRPUSD | long | 11-06 01:00 | 11-06 02:15 | 1.2439 | 1.23365 | stop | $-5.13 |
 | XAUTUSD | short | 11-05 20:00 | 11-05 22:15 | 4,085.34 | 4,116.58 | stop | $-5.24 |
 | XAUTUSD | short | 11-05 18:00 | 11-05 19:15 | 4,103.09 | 4,115.52 | stop | $-5.29 |
 | XAUTUSD | short | 11-05 17:30 | 11-05 17:45 | 4,114.1 | 4,107.57 | target_1R | $1.68 |
@@ -447,11 +458,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Adapted fr
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $461.92 |
-| Realized P&L | $-538.08 |
-| Unrealized P&L | $2.57 |
-| Total P&L | $-535.51 |
-| Closed trades | 422 |
-| Win rate | 47% |
+| Balance (realized) | $468.24 |
+| Realized P&L | $-531.76 |
+| Unrealized P&L | $-5.00 |
+| Total P&L | $-536.77 |
+| Closed trades | 432 |
+| Win rate | 48% |
 
 _State: `state/daytrader_state.json`, journal: `state/daytrader_journal.jsonl`. Paper trading only — not financial advice._
