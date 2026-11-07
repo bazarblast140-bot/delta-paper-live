@@ -9,22 +9,22 @@
     "sl": 1.3165,
     "entry_fee": 0.13445983282831753
    },
-   "last_ts": 1793997900,
-   "price": 1.1735,
+   "last_ts": 1794011400,
+   "price": 1.1807,
    "indicator": {
     "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "osc_dir": 1,
+    "agreement": 0,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
-    "event": "SELL"
+    "event": null
    }
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793997900,
-   "price": 75860.5,
+   "last_ts": 1794011400,
+   "price": 75884.5,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -37,8 +37,8 @@
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793997900,
-   "price": 2228.35,
+   "last_ts": 1794011400,
+   "price": 2240.05,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -51,8 +51,8 @@
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793997900,
-   "price": 0.07274,
+   "last_ts": 1794011400,
+   "price": 0.07253,
    "indicator": {
     "hema_dir": -1,
     "osc_dir": -1,
@@ -65,15 +65,15 @@
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793997900,
-   "price": 692.71,
+   "last_ts": 1794011400,
+   "price": 694.3,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
-    "pend_dir": 0,
-    "pend_high": null,
-    "pend_low": null,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
+    "pend_dir": 1,
+    "pend_high": 694.3,
+    "pend_low": 694.3,
     "event": null
    }
   },
@@ -86,16 +86,16 @@
     "sl": 96.5,
     "entry_fee": 0.18065479789868577
    },
-   "last_ts": 1793997900,
-   "price": 89.985,
+   "last_ts": 1794011400,
+   "price": 90.244,
    "indicator": {
-    "hema_dir": -1,
-    "osc_dir": -1,
-    "agreement": -1,
+    "hema_dir": 1,
+    "osc_dir": 1,
+    "agreement": 1,
     "pend_dir": 0,
     "pend_high": null,
     "pend_low": null,
-    "event": null
+    "event": "cancel_wick"
    }
   },
   "XAUTUSD": {
@@ -107,8 +107,8 @@
     "sl": 3905.74,
     "entry_fee": 0.17055811869820733
    },
-   "last_ts": 1793997900,
-   "price": 4054.49,
+   "last_ts": 1794011400,
+   "price": 4060.5,
    "indicator": {
     "hema_dir": 1,
     "osc_dir": 1,
@@ -121,5 +121,5 @@
   }
  },
  "balance": 628.5251,
- "updated": "2026-11-07T02:34:24.245331+05:30"
+ "updated": "2026-11-07T06:25:42.623985+05:30"
 }
