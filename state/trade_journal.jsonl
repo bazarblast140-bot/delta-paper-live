@@ -180,3 +180,4 @@
 {"event": "exit", "symbol": "XRPUSD", "side": "short", "entry_time": 1793887200, "exit_time": 1794038400, "entry": 1.2816, "exit": 1.1787356999999998, "qty": 338.4790310077528, "reason": "stop", "gross": 34.8174, "fees": 0.2862, "net": 34.5312}
 {"event": "entry", "side": "short", "entry": 0.07167, "qty": 14670.817469463025, "time": 1794063600, "atr": 0.00030992857142857113, "sl": 0.07228985714285714, "entry_fee": 0.21029149760728302, "symbol": "DOGEUSD"}
 {"event": "entry", "side": "short", "entry": 89.558, "qty": 12.067387727246858, "time": 1794063600, "atr": 0.37679285714285776, "sl": 90.31158571428573, "entry_fee": 0.21614622201535486, "symbol": "SOLUSD"}
+{"event": "entry", "side": "short", "entry": 2228.0, "qty": 0.6624003850156063, "time": 1794081600, "atr": 6.8642857142857405, "sl": 2241.7285714285713, "entry_fee": 0.2951656115629542, "symbol": "ETHUSD"}
