@@ -2,20 +2,22 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Port of `viru_trend_confirmation.pine`. Entry at close on BUY/SELL confirmation; SL = setup low/high; exit on SL or opposite signal (reverse). Separate virtual $1,000, 1% risk, notional cap 3×, same fees as Donchian. Runs every 15 min (at :01/:16/:31/:46) via GitHub Actions.
 
-**Last update:** 2026-11-07 23:50 IST
+**Last update:** 2026-11-08 03:40 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| ETHUSD | short | 2,239.15 | 2,243.65 | 2,237.85 | 0.911816 | $1.19 |
-| BNBUSD | long | 696 | 695.07 | 696 | 2.92313 | $0.00 |
-| SOLUSD | short | 95.8758 | 96.5 | 89.9 | 9.42129 | $56.30 |
+| ETHUSD | short | 2,239.15 | 2,243.65 | 2,231.65 | 0.911816 | $6.84 |
+| DOGEUSD | short | 0.07143 | 0.07177 | 0.07143 | 20,656.7 | $-0.00 |
+| SOLUSD | short | 95.8758 | 96.5 | 89.255 | 9.42129 | $62.38 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| BNBUSD | short | 11-08 03:00 | 11-08 03:15 | 694.85 | 695.449 | stop | $-3.27 |
+| BNBUSD | long | 11-07 23:30 | 11-08 02:15 | 696 | 694.811 | stop | $-4.90 |
 | XAUTUSD | short | 11-07 21:15 | 11-07 22:00 | 4,061.44 | 4,064.73 | stop | $-3.20 |
 | XAUTUSD | long | 11-03 18:15 | 11-07 21:15 | 3,933.64 | 4,061.44 | reverse | $27.36 |
 | BNBUSD | short | 11-07 21:00 | 11-07 22:30 | 694.03 | 694.359 | stop | $-2.40 |
@@ -176,11 +178,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Port of `v
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $702.33 |
-| Realized P&L | $-297.67 |
-| Unrealized P&L | $57.49 |
-| Total P&L | $-240.19 |
-| Closed trades | 154 |
-| Win rate | 18% |
+| Balance (realized) | $694.16 |
+| Realized P&L | $-305.84 |
+| Unrealized P&L | $69.22 |
+| Total P&L | $-236.62 |
+| Closed trades | 156 |
+| Win rate | 17% |
 
 _State: `state/viru_state.json`, journal: `state/viru_journal.jsonl`. Paper trading only — not financial advice._
