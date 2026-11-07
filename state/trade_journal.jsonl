@@ -177,3 +177,4 @@
 {"event": "exit", "symbol": "ETHUSD", "side": "short", "entry_time": 1793887200, "exit_time": 1793980800, "entry": 2343.0, "exit": 2234.8, "qty": 0.21298875098814268, "reason": "mid_exit", "gross": 23.0454, "fees": 0.195, "net": 22.8504}
 {"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1793973600, "exit_time": 1793995200, "entry": 90.975, "exit": 89.985, "qty": 5.420257771857518, "reason": "mid_exit", "gross": -5.3661, "fees": 0.1962, "net": -5.5622}
 {"event": "exit", "symbol": "XAUTUSD", "side": "short", "entry_time": 1793926800, "exit_time": 1793988000, "entry": 4051.04, "exit": 4067.01, "qty": 0.15671299109926878, "reason": "mid_exit", "gross": -2.5027, "fees": 0.2544, "net": -2.7571}
+{"event": "exit", "symbol": "XRPUSD", "side": "short", "entry_time": 1793887200, "exit_time": 1794038400, "entry": 1.2816, "exit": 1.1787356999999998, "qty": 338.4790310077528, "reason": "stop", "gross": 34.8174, "fees": 0.2862, "net": 34.5312}
