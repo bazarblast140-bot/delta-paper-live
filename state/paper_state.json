@@ -10,40 +10,40 @@
     "sl": 1.1992571428571428,
     "entry_fee": 0.08675894522790721
    },
-   "last_ts": 1793995200,
-   "price": 1.1735
+   "last_ts": 1794009600,
+   "price": 1.1798
   },
   "BTCUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 75860.5
+   "last_ts": 1794009600,
+   "price": 75867.5
   },
   "ETHUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 2228.35
+   "last_ts": 1794009600,
+   "price": 2239.1
   },
   "DOGEUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 0.07274
+   "last_ts": 1794009600,
+   "price": 0.07255
   },
   "BNBUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 692.71
+   "last_ts": 1794009600,
+   "price": 694.3
   },
   "SOLUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 89.985
+   "last_ts": 1794009600,
+   "price": 90.235
   },
   "XAUTUSD": {
    "position": null,
-   "last_ts": 1793995200,
-   "price": 4054.49
+   "last_ts": 1794009600,
+   "price": 4061.46
   }
  },
  "balance": 874.8499,
- "updated": "2026-11-07T02:49:42.411303+05:30"
+ "updated": "2026-11-07T07:10:18.281797+05:30"
 }
