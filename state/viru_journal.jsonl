@@ -326,3 +326,11 @@
 {"event": "exit", "symbol": "BNBUSD", "side": "long", "entry_time": 1794111300, "exit_time": 1794112200, "entry": 696.87, "exit": 696.01077, "qty": 3.1085397563390593, "reason": "stop", "gross": -2.671, "fees": 1.515, "net": -4.186}
 {"event": "entry", "side": "short", "entry": 88.874, "qty": 24.233072664671333, "time": 1794105000, "sl": 89.135, "entry_fee": 0.43073802, "symbol": "SOLUSD"}
 {"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1794105000, "exit_time": 1794106800, "entry": 88.874, "exit": 89.152827, "qty": 24.233072664671333, "reason": "stop", "gross": -6.7568, "fees": 1.511, "net": -8.2678}
+{"event": "entry", "side": "short", "entry": 1.1594, "qty": 1819.5612820512754, "time": 1794146400, "sl": 1.1633, "entry_fee": 0.42191987008204973, "symbol": "XRPUSD"}
+{"event": "exit", "symbol": "ETHUSD", "side": "short", "entry_time": 1794065400, "exit_time": 1794143700, "entry": 2239.15, "exit": 2244.09873, "qty": 0.9118160462675569, "reason": "stop", "gross": -4.5123, "fees": 1.4314, "net": -5.9438}
+{"event": "exit", "symbol": "DOGEUSD", "side": "short", "entry_time": 1794084300, "exit_time": 1794138300, "entry": 0.07143, "exit": 0.0713, "qty": 20656.714705881932, "reason": "reverse", "gross": 2.6854, "fees": 0.5897, "net": 2.0957}
+{"event": "entry", "side": "long", "entry": 0.0713, "qty": 29696.246844319776, "time": 1794138300, "sl": 0.07111, "entry_fee": 0.42346848000000004, "symbol": "DOGEUSD"}
+{"event": "exit", "symbol": "DOGEUSD", "side": "long", "entry_time": 1794138300, "exit_time": 1794147300, "entry": 0.0713, "exit": 0.07109577800000001, "qty": 29696.246844319776, "reason": "stop", "gross": -6.0646, "fees": 1.4791, "net": -7.5437}
+{"event": "entry", "side": "short", "entry": 696.63, "qty": 3.006920890573188, "time": 1794146400, "sl": 697.75, "entry_fee": 0.41894226, "symbol": "BNBUSD"}
+{"event": "entry", "side": "long", "entry": 4062.51, "qty": 0.5156199738585259, "time": 1794132900, "sl": 4062.18, "entry_fee": 0.41894226, "symbol": "XAUTUSD"}
+{"event": "exit", "symbol": "XAUTUSD", "side": "long", "entry_time": 1794132900, "exit_time": 1794133800, "entry": 4062.51, "exit": 4061.367564, "qty": 0.5156199738585259, "reason": "stop", "gross": -0.5891, "fees": 1.466, "net": -2.0551}
