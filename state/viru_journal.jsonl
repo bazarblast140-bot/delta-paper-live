@@ -317,3 +317,12 @@
 {"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1793880900, "exit_time": 1794095100, "entry": 95.8758, "exit": 89.814, "qty": 9.421292854854185, "reason": "reverse", "gross": 57.11, "fees": 0.3499, "net": 56.7601}
 {"event": "entry", "side": "long", "entry": 89.814, "qty": 19.76107894736866, "time": 1794095100, "sl": 89.434, "entry_fee": 0.3549643089157937, "symbol": "SOLUSD"}
 {"event": "exit", "symbol": "SOLUSD", "side": "long", "entry_time": 1794095100, "exit_time": 1794097800, "entry": 89.814, "exit": 89.4161132, "qty": 19.76107894736866, "reason": "stop", "gross": -7.8627, "fees": 1.2384, "net": -9.1011}
+{"event": "exit", "symbol": "XRPUSD", "side": "long", "entry_time": 1794094200, "exit_time": 1794102300, "entry": 1.1632, "exit": 1.15956804, "qty": 1790.3049346629987, "reason": "stop", "gross": -6.5023, "fees": 1.4545, "net": -7.9568}
+{"event": "entry", "side": "long", "entry": 1.1634, "qty": 1892.3751933986591, "time": 1794111300, "sl": 1.1607, "entry_fee": 0.44031786000000006, "symbol": "XRPUSD"}
+{"event": "exit", "symbol": "XRPUSD", "side": "long", "entry_time": 1794111300, "exit_time": 1794113100, "entry": 1.1634, "exit": 1.16046786, "qty": 1892.3751933986591, "reason": "stop", "gross": -5.5487, "fees": 1.5383, "net": -7.087}
+{"event": "entry", "side": "short", "entry": 695.1, "qty": 3.136711696158826, "time": 1794101400, "sl": 695.97, "entry_fee": 0.43606566, "symbol": "BNBUSD"}
+{"event": "exit", "symbol": "BNBUSD", "side": "short", "entry_time": 1794101400, "exit_time": 1794106800, "entry": 695.1, "exit": 696.109194, "qty": 3.136711696158826, "reason": "stop", "gross": -3.1656, "fees": 1.5278, "net": -4.6934}
+{"event": "entry", "side": "long", "entry": 696.87, "qty": 3.1085397563390593, "time": 1794111300, "sl": 696.15, "entry_fee": 0.43324962000000006, "symbol": "BNBUSD"}
+{"event": "exit", "symbol": "BNBUSD", "side": "long", "entry_time": 1794111300, "exit_time": 1794112200, "entry": 696.87, "exit": 696.01077, "qty": 3.1085397563390593, "reason": "stop", "gross": -2.671, "fees": 1.515, "net": -4.186}
+{"event": "entry", "side": "short", "entry": 88.874, "qty": 24.233072664671333, "time": 1794105000, "sl": 89.135, "entry_fee": 0.43073802, "symbol": "SOLUSD"}
+{"event": "exit", "symbol": "SOLUSD", "side": "short", "entry_time": 1794105000, "exit_time": 1794106800, "entry": 88.874, "exit": 89.152827, "qty": 24.233072664671333, "reason": "stop", "gross": -6.7568, "fees": 1.511, "net": -8.2678}
