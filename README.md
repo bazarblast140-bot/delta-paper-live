@@ -2,20 +2,20 @@
 
 Public Delta Exchange India candles only. **No API keys, no orders.** Long on close above 20-bar high, short below 20-bar low; initial SL = 2×ATR(14), then trailing SL = 2×ATR(14) from each closed bar (only tightens, never widens); exit on close back through mid-channel. Virtual $1,000 start, 1% risk per trade, notional capped at 3× balance. Fees: 0.02% maker entry/mid-exit, 0.05% taker + 0.02% slippage on stops. Runs hourly at :03 UTC via GitHub Actions. Second strategy: **[Viru Trend](VIRU_TREND.md)**.
 
-**Last update:** 2026-11-08 04:58 IST
+**Last update:** 2026-11-08 10:21 IST
 
 ## Open positions
 
 | Coin | Side | Entry | SL | Current | Qty | Unrealized P&L |
 |---|---|---|---|---|---|---|
-| ETHUSD | short | 2,228 | 2,241.73 | 2,234 | 0.6624 | $-3.97 |
-| DOGEUSD | short | 0.07167 | 0.071987 | 0.07142 | 14,670.8 | $3.67 |
-| SOLUSD | short | 89.558 | 89.8321 | 89.265 | 12.0674 | $3.54 |
+| DOGEUSD | short | 0.07167 | 0.0718527 | 0.07136 | 14,670.8 | $4.55 |
 
 ## Closed trades
 
 | Coin | Side | Entry time (IST) | Exit time (IST) | Entry | Exit | Reason | Net P&L |
 |---|---|---|---|---|---|---|---|
+| SOLUSD | short | 11-07 20:30 | 11-08 04:30 | 89.558 | 89.8501 | stop | $-4.28 |
+| ETHUSD | short | 11-08 01:30 | 11-08 04:30 | 2,228 | 2,239.25 | mid_exit | $-8.04 |
 | XRPUSD | short | 11-05 19:30 | 11-07 13:30 | 1.2816 | 1.17874 | stop | $34.53 |
 | XAUTUSD | short | 11-06 06:30 | 11-06 23:30 | 4,051.04 | 4,067.01 | mid_exit | $-2.76 |
 | SOLUSD | long | 11-06 19:30 | 11-07 01:30 | 90.975 | 89.985 | mid_exit | $-5.56 |
@@ -112,11 +112,11 @@ Public Delta Exchange India candles only. **No API keys, no orders.** Long on cl
 | Metric | Value |
 |---|---|
 | Starting balance | $1,000.00 |
-| Balance (realized) | $909.38 |
-| Realized P&L | $-90.62 |
-| Unrealized P&L | $3.23 |
-| Total P&L | $-87.39 |
-| Closed trades | 90 |
-| Win rate | 31% |
+| Balance (realized) | $897.05 |
+| Realized P&L | $-102.95 |
+| Unrealized P&L | $4.55 |
+| Total P&L | $-98.40 |
+| Closed trades | 92 |
+| Win rate | 30% |
 
 _State: `state/paper_state.json`, journal: `state/trade_journal.jsonl`. Paper trading only — not financial advice._
